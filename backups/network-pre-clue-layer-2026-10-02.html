@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#000"><title>CICAN CIA — KNOWLEDGE NETWORK</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;background:#000;color:#fff;font-family:Arial,Helvetica,sans-serif}
+body{min-height:100vh;display:flex;justify-content:center}.wrap{width:min(94vw,900px);padding:30px 18px 60px}
+.top{display:flex;justify-content:space-between;align-items:center}.brand{font-size:12px;font-weight:800;letter-spacing:3px}.back{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.2);padding:8px 11px;border-radius:16px;font-size:8px;letter-spacing:1.5px}
+h1{text-align:center;font-size:clamp(29px,7vw,50px);letter-spacing:4px;margin:48px 0 7px}.sub{text-align:center;font-size:9px;letter-spacing:3px;opacity:.4}
+.intro{max-width:700px;margin:22px auto;text-align:center;color:rgba(255,255,255,.55);font-size:12px;line-height:1.7}
+.status{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin:20px 0}.pill{border:1px solid rgba(255,255,255,.13);padding:8px 10px;font-size:8px;letter-spacing:1.5px;color:rgba(255,255,255,.55)}
+.network{display:grid;gap:10px;margin-top:25px}.frontier{margin-top:18px;border:1px solid rgba(255,255,255,.13);padding:14px;border-radius:10px;background:#030303}.frontier b{font-size:8px;letter-spacing:2px;color:rgba(255,255,255,.4)}.frontier div{font-size:10px;line-height:1.6;color:rgba(255,255,255,.6);margin-top:7px}.locked .links a{opacity:.65}.node{border:1px solid rgba(255,255,255,.13);border-radius:10px;background:#030303;padding:16px}.node.locked{opacity:.38}.node-head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.code{font-size:8px;letter-spacing:2px;opacity:.35}.name{font-size:16px;letter-spacing:1.5px;margin-top:5px}.state{font-size:7px;letter-spacing:1.5px;border:1px solid rgba(255,255,255,.18);padding:6px 8px;white-space:nowrap}.desc{font-size:9px;line-height:1.6;color:rgba(255,255,255,.45);margin:10px 0}.links{display:flex;flex-wrap:wrap;gap:7px}.links a{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.2);padding:7px 9px;border-radius:7px;font-size:7px;letter-spacing:1px}.edge{margin:7px 0 7px 12px;border-left:1px solid rgba(255,255,255,.18);padding:4px 0 4px 14px;color:rgba(255,255,255,.32);font-size:8px;letter-spacing:1.5px}
+footer{text-align:center;margin-top:30px;color:rgba(255,255,255,.22);font-size:8px;line-height:1.8}
+</style>
+</head>
+<body><main class="wrap">
+<div class="top"><div class="brand">CICAN CIA</div><a class="back" href="academy.html">ACADEMY</a></div>
+<h1>KNOWLEDGE NETWORK</h1><div class="sub">DISCOVERY GRAPH · PUBLIC RECORD SIMULATION</div>
+<p class="intro">Every verified investigation becomes a node in your research path. A node does not reveal the answer for you: it records what you have established and points toward the next question.</p>
+<div class="status"><div class="pill" id="count">0 / 5 VERIFIED</div><div class="pill" id="xp">0 XP</div><div class="pill">PUBLIC SOURCES ONLY</div></div>
+<div class="frontier"><b>NEXT RESEARCH FRONTIER</b><div id="frontier">No frontier calculated yet.</div></div><div class="network" id="network"></div>
+<footer>Connections are CICAN research-game relationships. They do not represent classified CIA relationships or internal Agency systems.<br>CICAN CIA is independent and is not affiliated with or endorsed by the CIA.</footer>
+</main>
+<script>
+const nodes=[
+{id:"romania",code:"CASE 001",name:"RUMANIA",desc:"Historical terminology → Romania / Rumania → military information → original record.",next:["reconnaissance","berlin"]},
+{id:"reconnaissance",code:"CASE 002",name:"RECONNAISSANCE",desc:"Broad Cold War subject → aircraft → intelligence collection → specific document.",next:["vietnam","berlin"]},
+{id:"vietnam",code:"CASE 003",name:"VIETNAM",desc:"Historical subject → specific 1968 document → source metadata → verified evidence.",next:["stargate"]},
+{id:"stargate",code:"CASE 004",name:"STARGATE",desc:"Popular claim → public collection → documented program history → evidence boundary.",next:["berlin"]},
+{id:"berlin",code:"CASE 005",name:"BERLIN",desc:"Collection title → underlying records → event-specific evidence → verified source.",next:["romania"]}
+];
+const verified=id=>!!localStorage.getItem("cicanCase_"+id);
+const p=JSON.parse(localStorage.getItem("cicanCiaProfile")||'{"xp":0,"discoveries":0,"records":0,"verified":0,"lessons":0}');
+document.getElementById("count").textContent=nodes.filter(n=>verified(n.id)).length+" / "+nodes.length+" VERIFIED";
+document.getElementById("xp").textContent=(p.xp||0)+" XP";
+const verifiedNodes=nodes.filter(n=>verified(n.id));
+const frontierIds=[...new Set(verifiedNodes.flatMap(n=>n.next))].filter(id=>!verified(id));
+const frontierNames=frontierIds.map(id=>nodes.find(n=>n.id===id)?.name).filter(Boolean);
+document.getElementById("frontier").textContent=frontierNames.length
+ ? frontierNames.join(" · ")+" — these are the next unresolved research paths."
+ : (verifiedNodes.length===nodes.length ? "ALL FIVE PUBLIC-RECORD CASES VERIFIED. The network is complete." : "Begin with CASE 001 — RUMANIA. The first evidence node establishes your starting path.");
+document.getElementById("network").innerHTML=nodes.map(n=>{
+ const done=verified(n.id);
+ const next=n.next.map(id=>{
+  const target=nodes.find(x=>x.id===id);
+  if(!target)return "";
+  const state=verified(id)?"REVISIT ":(!done&&id===n.id?"OPEN ":"OPEN ");
+  return '<a href="investigation.html?id='+id+'">'+state+target.code+' · '+target.name+'</a>';
+ }).join("");
+ return '<section class="node '+(done?"":"locked")+'"><div class="node-head"><div><div class="code">'+n.code+'</div><div class="name">'+n.name+'</div></div><div class="state">'+(done?"VERIFIED":"UNVERIFIED")+'</div></div><div class="desc">'+n.desc+'</div><div class="edge">RESEARCH PATH →</div><div class="links">'+next+'</div></section>';
+}).join("");
+</script>
+</body></html>
