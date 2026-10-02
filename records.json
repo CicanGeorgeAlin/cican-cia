@@ -19,8 +19,7 @@
       "description": "CIA National Intelligence Daily reporting covering Central and Eastern Europe from February 1989 to March 1990.",
       "source": "https://www.cia.gov/readingroom/",
       "sourceNote": "CIA Reading Room collection: The Collapse of Communism in Eastern Europe: A 30-Year Legacy.",
-      "simulationAccess": "CONFIDENTIAL",
-      "directSource": "https://www.cia.gov/readingroom/collection/collapse-communism-eastern-europe-30-year-legacy"
+      "simulationAccess": "CONFIDENTIAL"
     },
     {
       "id": "aquiline",
@@ -38,8 +37,7 @@
       "description": "A declassified CIA collection concerning the 1960s Aquiline concept for unmanned aerial intelligence collection.",
       "source": "https://www.cia.gov/readingroom/",
       "sourceNote": "CIA Reading Room: Aquiline, 40 documents / 289 pages.",
-      "simulationAccess": "SECRET",
-      "directSource": "https://www.cia.gov/readingroom/collection/aquiline"
+      "simulationAccess": "SECRET"
     },
     {
       "id": "crest",
@@ -270,8 +268,7 @@
       "description": "CIA historical collection concerning the construction and intelligence context of the Berlin Wall.",
       "source": "https://www.cia.gov/readingroom/",
       "sourceNote": "CIA Electronic Reading Room collection listed in its Advanced Search Guide.",
-      "simulationAccess": "SECRET",
-      "directSource": "https://www.cia.gov/readingroom/collection/berlin-wall"
+      "simulationAccess": "SECRET"
     },
     {
       "id": "china-collection",
@@ -338,8 +335,7 @@
       "description": "Records from the Office of Strategic Services, the World War II-era predecessor organization to the CIA.",
       "source": "https://www.cia.gov/readingroom/",
       "sourceNote": "CIA Electronic Reading Room collection listed in its Advanced Search Guide.",
-      "simulationAccess": "CONFIDENTIAL",
-      "directSource": "https://www.cia.gov/readingroom/collection/oss-collection"
+      "simulationAccess": "CONFIDENTIAL"
     },
     {
       "id": "nazi-war-crimes",
