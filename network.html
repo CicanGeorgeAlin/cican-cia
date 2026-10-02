@@ -29,8 +29,10 @@ fetch("records.json").then(r=>r.json()).then(data=>{
  const p=JSON.parse(localStorage.getItem("cicanCiaProfile")||'{"xp":0}');
  document.getElementById("count").textContent=verified.length+" / "+records.length+" VERIFIED";
  document.getElementById("xp").textContent=(p.xp||0)+" XP";
+ const verifiedTopics=new Set(verified.flatMap(x=>x.topics||[]));
+ const frontier=records.filter(x=>!verified.some(v=>v.id===x.id) && (x.topics||[]).some(t=>verifiedTopics.has(t))).slice(0,6);
  document.getElementById("frontier").textContent=verified.length
-  ? verified.slice(0,8).map(x=>x.title).join(" · ")+" — verified research nodes remain available for cross-record exploration."
+  ? (frontier.length ? "Linked by shared research topics: "+frontier.map(x=>x.title).join(" · ") : "No unverified topic-linked node found yet. Continue exploring the public catalog.")
   : "Begin with any public record. The first verified source establishes your starting research path.";
  document.getElementById("network").innerHTML=records.map((r,i)=>{
   const done=!!localStorage.getItem("cicanCase_"+r.id);
