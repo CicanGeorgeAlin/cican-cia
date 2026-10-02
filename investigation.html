@@ -25,7 +25,7 @@ let catalog=null;
 fetch("records.json").then(r=>r.json()).then(data=>{
  catalog=data.records.find(x=>x.id===id)||data.records.find(x=>x.id===id.replace(/^record-/,""));
  if(!c&&catalog){
-  c={...fallback,id:catalog.id,code:"RECORD",title:catalog.title,source:catalog.directSource||catalog.source,
+  c={...fallback,id:catalog.id,code:"RECORD",title:catalog.title,source:catalog.directFile||catalog.directSource||catalog.source,
     facts:[["TYPE",(catalog.type||"PUBLIC RECORD").toUpperCase()],["TOPICS",(catalog.topics||[]).slice(0,4).join(" · ")],["SIMULATED ACCESS",catalog.simulationAccess||"FICTIONAL GATE"],["HISTORICAL MARKING",catalog.sourceClassification||"NOT STATED IN CATALOG"],["SOURCE",catalog.directSource?(catalog.type||"").toLowerCase().includes("collection")?"DIRECT PUBLIC COLLECTION":"DIRECT PUBLIC SOURCE":"CIA READING ROOM INDEX"]]};
  }
  render();
