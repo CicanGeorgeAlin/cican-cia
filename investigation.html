@@ -12,7 +12,7 @@ const cases={
  stargate:{code:"CASE 004",title:"STARGATE",question:"A popular claim says the government studied psychic phenomena. What is the disciplined research response?",facts:[["COLLECTION","STARGATE"],["TOPIC","Remote viewing"],["SOURCE","Declassified public records"],["QUESTION","What does the archive actually establish?"]],choices:[["Treat the popular claim as the conclusion","weak"],["Find the public collection and distinguish documented program history from unsupported conclusions","correct"],["Ignore the records because the subject is unusual","weak"]],answer:"The correct research move is to inspect the primary public collection and distinguish what the records document from broader claims made elsewhere.",source:"https://www.cia.gov/readingroom/",sourceName:"Open the CIA FOIA Electronic Reading Room"}
 };
 const id=new URLSearchParams(location.search).get("id")||"romania";const c=cases[id]||cases.romania;
-const nextMap={romania:["reconnaissance","Berlin"],reconnaissance:["vietnam"],vietnam:["stargate"],stargate:["berlin"],berlin:["romania"]};
+const nextMap={romania:["reconnaissance","berlin"],reconnaissance:["vietnam","berlin"],vietnam:["stargate"],stargate:["berlin"],berlin:["romania"]};
 
 document.getElementById("title").textContent=c.title;document.getElementById("caseId").textContent=c.code;
 document.getElementById("question").textContent=c.question;
@@ -24,12 +24,19 @@ function answer(kind){
  if(kind==="correct"){
   const p=JSON.parse(localStorage.getItem("cicanCiaProfile")||'{"xp":0,"discoveries":0,"records":0,"verified":0,"lessons":0}');
   const key="cicanCase_"+id;
-  if(!localStorage.getItem(key)){p.xp+=100;p.discoveries++;p.verified++;localStorage.setItem("cicanCiaProfile",JSON.stringify(p));localStorage.setItem(key,"1");document.getElementById("xp").textContent="CASE VERIFIED · +100 XP";}
-else document.getElementById("xp").textContent="CASE ALREADY VERIFIED";
-  else document.getElementById("xp").textContent="CASE ALREADY VERIFIED";
+  if(!localStorage.getItem(key)){
+   p.xp+=100;p.discoveries++;p.verified++;p.lessons=(p.lessons||0)+1;
+   localStorage.setItem("cicanCiaProfile",JSON.stringify(p));
+   localStorage.setItem(key,"1");
+   document.getElementById("xp").textContent="CASE VERIFIED · +100 XP · LESSON RECORDED";
+ }else{
+   document.getElementById("xp").textContent="CASE ALREADY VERIFIED";
+ }
   result.textContent=c.answer;
 const next=document.getElementById("next");const choices=nextMap[id]||[];const available=choices.find(n=>!localStorage.getItem("cicanCase_"+n.toLowerCase()));if(available){next.classList.add("show");next.innerHTML="<b>NEW RESEARCH PATH DISCOVERED</b><a href=\"investigation.html?id="+available.toLowerCase()+"\">CONTINUE TO CASE → "+available.toUpperCase()+"</a>";}
-  document.getElementById("source").style.display="block";document.getElementById("source").innerHTML='<a href="'+c.source+'" target="_blank" rel="noopener">'+c.sourceName+" →</a>";
+  document.getElementById("source").style.display="block";
+  document.getElementById("source").innerHTML='<a href="'+c.source+'" target="_blank" rel="noopener">'+c.sourceName+" →</a>";
+  document.getElementById("source").innerHTML+='<div style="margin-top:8px;color:rgba(255,255,255,.28);font-size:8px;letter-spacing:1px">SOURCE VERIFIED · PUBLIC RECORD GATE</div>';
  }else{result.textContent="Not quite. The stronger research approach is the one that narrows the question and then verifies the answer against the original public source.";document.getElementById("xp").textContent="NO XP · TRY AGAIN";}
 }
 </script></body></html>
