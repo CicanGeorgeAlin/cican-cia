@@ -74,7 +74,8 @@
       "type": "collection",
       "description": "Declassified records from a multi-year U.S. Intelligence Community effort involving remote viewing research.",
       "source": "https://www.cia.gov/readingroom/",
-      "sourceNote": "CIA Reading Room collection: STARGATE."
+      "sourceNote": "CIA Reading Room collection: STARGATE.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp96-00789r001700450005-0"
     },
     {
       "id": "central-intelligence-bulletin-1961",
@@ -93,7 +94,8 @@
       "type": "collection",
       "description": "Historical presidential intelligence reporting from the Kennedy era; the CIA Reading Room identifies a release covering 2 January–30 June 1961.",
       "source": "https://www.cia.gov/readingroom/",
-      "sourceNote": "CIA Reading Room Current/Central Intelligence Bulletin collection."
+      "sourceNote": "CIA Reading Room Current/Central Intelligence Bulletin collection.",
+      "directSource": "https://www.cia.gov/readingroom/document/0005995995"
     },
     {
       "id": "infiltration-groups-1968",
@@ -176,7 +178,8 @@
       "type": "collection",
       "description": "Publicly released historical President's Daily Brief material from 1961–1969.",
       "source": "https://www.cia.gov/readingroom/collection/presidents-daily-brief-1961-1969",
-      "sourceNote": "CIA Reading Room collection."
+      "sourceNote": "CIA Reading Room collection.",
+      "directSource": "https://www.cia.gov/readingroom/document/0005958920"
     },
     {
       "id": "presidents-daily-brief-1969-1977",
@@ -310,7 +313,8 @@
       "type": "collection",
       "description": "CIA historical collection concerning UFO-related records and investigations.",
       "source": "https://www.cia.gov/readingroom/",
-      "sourceNote": "CIA Electronic Reading Room collection listed in its Advanced Search Guide."
+      "sourceNote": "CIA Electronic Reading Room collection listed in its Advanced Search Guide.",
+      "directSource": "https://www.cia.gov/readingroom/document/0000015408"
     },
     {
       "id": "oss-collection",
