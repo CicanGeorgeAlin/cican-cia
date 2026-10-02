@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#000"><title>CICAN CIA — EVIDENCE DOSSIER</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;background:#000;color:#fff;font-family:Arial,Helvetica,sans-serif}body{min-height:100vh}.wrap{width:min(94vw,980px);margin:auto;padding:26px 18px 60px}.top{display:flex;justify-content:space-between;align-items:center}.brand{font-size:12px;font-weight:800;letter-spacing:3px}.back{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.2);padding:8px 11px;border-radius:16px;font-size:8px;letter-spacing:1.5px}h1{text-align:center;font-size:clamp(28px,7vw,52px);letter-spacing:3px;margin:48px 0 7px}.sub{text-align:center;font-size:9px;letter-spacing:3px;color:rgba(255,255,255,.4)}.status{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin:22px 0;color:rgba(255,255,255,.35);font-size:8px;letter-spacing:2px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}.card{border:1px solid rgba(255,255,255,.13);background:#030303;border-radius:10px;padding:16px}.code{font-size:8px;letter-spacing:3px;color:rgba(255,255,255,.35)}h2{font-size:17px;margin:8px 0;letter-spacing:1px}.meta{font-size:9px;line-height:1.6;color:rgba(255,255,255,.55)}.card a{display:inline-block;margin-top:12px;color:#fff;text-decoration:none;font-size:8px;letter-spacing:1.5px;border-bottom:1px solid rgba(255,255,255,.3);padding-bottom:3px}.empty{border:1px dashed rgba(255,255,255,.16);padding:24px;text-align:center;color:rgba(255,255,255,.35);font-size:10px;line-height:1.6}.notice{margin-top:28px;border-top:1px solid rgba(255,255,255,.1);padding-top:18px;text-align:center;color:rgba(255,255,255,.25);font-size:8px;line-height:1.6}
+</style></head><body><main class="wrap"><div class="top"><div class="brand">CICAN CIA</div><a class="back" href="profile.html">PROFILE</a></div><h1>EVIDENCE DOSSIER</h1><div class="sub">PERSISTENT RESEARCH RECORD · PUBLIC SOURCES ONLY</div><div class="status" id="status"></div><section id="grid" class="grid"></section><div class="notice">This dossier is a CICAN CIA research-game record. It does not contain classified information, grant access, or represent an official CIA system. Every source shown here is intended to be publicly accessible.</div></main>
+<script>
+const cases={
+ romania:{code:"CASE 001",title:"RUMANIA",lesson:"Historical terminology can change the vocabulary needed to find a record.",source:"https://www.cia.gov/readingroom/document/cia-rdp80-00247a001600110001-0"},
+ reconnaissance:{code:"CASE 002",title:"RECONNAISSANCE",lesson:"Narrow a broad subject with specific collection and platform terms, then verify the record.",source:"https://www.cia.gov/readingroom/document/cia-rdp90t00782r000100120001-0"},
+ vietnam:{code:"CASE 003",title:"VIETNAM",lesson:"Take classification information from the original document and its metadata, not from assumption.",source:"https://www.cia.gov/readingroom/document/cia-rdp78t02095r000100060011-1"},
+ stargate:{code:"CASE 004",title:"STARGATE",lesson:"Separate what a public collection documents from broader claims made about it.",source:"https://www.cia.gov/readingroom/"},
+ berlin:{code:"CASE 005",title:"BERLIN",lesson:"A collection is an entry point; inspect the underlying records before drawing a conclusion.",source:"https://www.cia.gov/readingroom/"}
+};
+const ids=Object.keys(cases);
+const verified=ids.filter(id=>localStorage.getItem("cicanCase_"+id));
+const p=JSON.parse(localStorage.getItem("cicanCiaProfile")||'{"xp":0,"discoveries":0,"records":0,"verified":0,"lessons":0}');
+document.getElementById("status").innerHTML="<span>"+verified.length+" / "+ids.length+" CASES VERIFIED</span><span>"+p.xp+" XP</span><span>"+(p.verified||0)+" SOURCES VERIFIED</span>";
+const grid=document.getElementById("grid");
+if(!verified.length){grid.innerHTML='<div class="empty">NO VERIFIED EVIDENCE YET.<br><br>Complete a field investigation to begin building your dossier.</div>'}else{
+ verified.forEach(id=>{const c=cases[id];const el=document.createElement("article");el.className="card";el.innerHTML='<div class="code">'+c.code+' · VERIFIED</div><h2>'+c.title+'</h2><div class="meta">'+c.lesson+'</div><a href="'+c.source+'" target="_blank" rel="noopener">OPEN PUBLIC SOURCE →</a>';grid.appendChild(el)})
+}
+</script></body></html>
