@@ -31,8 +31,8 @@ fetch("records.json").then(r=>r.json()).then(data=>{
  document.getElementById("xp").textContent=(p.xp||0)+" XP";
  const verifiedTopics=new Set(verified.flatMap(x=>x.topics||[]));
  const frontier=records.filter(x=>!verified.some(v=>v.id===x.id) && (x.topics||[]).some(t=>verifiedTopics.has(t))).slice(0,6);
- document.getElementById("frontier").textContent=verified.length
-  ? (frontier.length ? "Linked by shared research topics: "+frontier.map(x=>x.title).join(" · ") : "No unverified topic-linked node found yet. Continue exploring the public catalog.")
+ document.getElementById("frontier").innerHTML=verified.length
+  ? (frontier.length ? "Linked by shared research topics: "+frontier.map(x=>'<a href="investigation.html?id='+encodeURIComponent(x.id)+'" style="color:#fff;text-decoration:none;display:block;margin-top:7px">'+x.title+" →</a>").join("") : "No unverified topic-linked node found yet. Continue exploring the public catalog.")
   : "Begin with any public record. The first verified source establishes your starting research path.";
  document.getElementById("network").innerHTML=records.map((r,i)=>{
   const done=!!localStorage.getItem("cicanCase_"+r.id);
