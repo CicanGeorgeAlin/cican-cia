@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "sourcePolicy": "public-declassified-only",
   "primarySource": "https://www.cia.gov/readingroom/",
   "records": [
@@ -386,6 +386,99 @@
       "source": "https://www.cia.gov/readingroom/collection/documents-related-former-detention-and-interrogation-program",
       "sourceNote": "CIA announced the release of 50 declassified documents in June 2016.",
       "simulationAccess": "SECRET"
+    },
+    {
+      "id": "berlin-tunnel",
+      "title": "Berlin Tunnel / Operation GOLD",
+      "topics": [
+        "berlin",
+        "berlin tunnel",
+        "operation gold",
+        "east berlin",
+        "soviet",
+        "cold war",
+        "signals intelligence"
+      ],
+      "simulationAccess": "SECRET",
+      "type": "historical collection",
+      "description": "Public CIA historical material on the Berlin Tunnel operation and its intelligence collection during the Cold War.",
+      "source": "https://www.cia.gov/readingroom/collection/berlin-tunnel",
+      "sourceNote": "CIA public historical and Reading Room material. The CIA's public history describes the tunnel, its construction, collection, and later assessment.",
+      "directSource": "https://www.cia.gov/readingroom/collection/berlin-tunnel"
+    },
+    {
+      "id": "air-america",
+      "title": "Air America: Holding Up the Airman’s Bond",
+      "topics": [
+        "air america",
+        "vietnam",
+        "laos",
+        "southeast asia",
+        "civil air transport",
+        "aviation"
+      ],
+      "simulationAccess": "CONFIDENTIAL",
+      "type": "historical collection",
+      "description": "CIA Historical Documents Collection material concerning Air America and its role in Southeast Asia.",
+      "source": "https://www.cia.gov/readingroom/collection/air-america-upholding-airmens-bond",
+      "sourceNote": "CIA Center for the Study of Intelligence identifies this as a CIA Historical Documents Collection.",
+      "directSource": "https://www.cia.gov/readingroom/collection/air-america-upholding-airmens-bond"
+    },
+    {
+      "id": "john-mccone",
+      "title": "John McCone as Director of Central Intelligence, 1961–1965",
+      "topics": [
+        "john mccone",
+        "mccone",
+        "director of central intelligence",
+        "kennedy",
+        "bay of pigs",
+        "cold war",
+        "cia leadership"
+      ],
+      "simulationAccess": "SECRET",
+      "type": "historical collection",
+      "description": "Public historical collection concerning John McCone's tenure as Director of Central Intelligence from 1961 to 1965.",
+      "source": "https://www.cia.gov/readingroom/collection/john-mccone-director-central-intelligence-1961-1965",
+      "sourceNote": "CIA Electronic Reading Room collection listed in the official Advanced Search Guide and cited by CIA's Center for the Study of Intelligence.",
+      "directSource": "https://www.cia.gov/readingroom/collection/john-mccone-director-central-intelligence-1961-1965"
+    },
+    {
+      "id": "richard-helms",
+      "title": "Richard Helms as Director of Central Intelligence, 1966–1973",
+      "topics": [
+        "richard helms",
+        "helms",
+        "director of central intelligence",
+        "vietnam",
+        "cold war",
+        "cia leadership"
+      ],
+      "simulationAccess": "TOP SECRET",
+      "type": "historical collection",
+      "description": "Public historical material concerning Richard Helms's tenure as Director of Central Intelligence from 1966 to 1973.",
+      "source": "https://www.cia.gov/readingroom/collection/life-intelligence-richard-helms-collection",
+      "sourceNote": "CIA Center for the Study of Intelligence identifies the public collection as the Richard Helms collection.",
+      "directSource": "https://www.cia.gov/readingroom/collection/life-intelligence-richard-helms-collection"
+    },
+    {
+      "id": "creation-intelligence-community",
+      "title": "The Creation of the Intelligence Community",
+      "topics": [
+        "intelligence community",
+        "1947",
+        "national security act",
+        "oss",
+        "truman",
+        "cia founding",
+        "founding documents"
+      ],
+      "simulationAccess": "CONFIDENTIAL",
+      "type": "historical documents",
+      "description": "Previously declassified and released documents concerning the creation of the postwar U.S. intelligence community and the establishment of CIA.",
+      "source": "https://www.cia.gov/resources/publications/the-creation-of-the-intelligence-community/",
+      "sourceNote": "CIA historical publication containing previously declassified and released founding documents.",
+      "directSource": "https://www.cia.gov/resources/publications/the-creation-of-the-intelligence-community/"
     }
   ],
   "schemaNote": "simulationAccess is a fictional CICAN gameplay gate. sourceClassification, when present, describes the historical classification marking reported by the public source. Neither field grants or represents real access."
