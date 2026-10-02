@@ -51,5 +51,5 @@ document.getElementById("network").innerHTML=nodes.map(n=>{
  return '<section class="node '+(done?"":"locked")+'"><div class="node-head"><div><div class="code">'+n.code+'</div><div class="name">'+n.name+'</div></div><div class="state">'+(done?"VERIFIED":"UNVERIFIED")+'</div></div><div class="desc">'+n.desc+'</div>'+(done?"<div class=\"clues\">"+n.clues.map((x,i)=>"<div class=\"clue\"><b>CLUE "+(i+1)+"</b> · "+x+"</div>").join("")+"</div>":"")+'<div class="edge">RESEARCH PATH →</div><div class="links">'+next+'</div></section>';
 }).join("");
 </script>
-<div style="position:fixed;left:16px;bottom:16px;z-index:4;font-size:7px;letter-spacing:1px;color:rgba(255,255,255,.22)"><a href="legal.html" style="color:inherit">LEGAL &amp; SOURCE POLICY</a></div>
+<div style="position:fixed;left:16px;bottom:16px;z-index:4;font-size:7px;letter-spacing:1px;color:rgba(255,255,255,.22)"><a href="legal.html" style="color:inherit">LEGAL &amp; SOURCE POLICY</a> · <a href="privacy.html">PRIVACY &amp; STORAGE</a></div>
 </body></html>
