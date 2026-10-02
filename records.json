@@ -1,5 +1,5 @@
 {
-  "version": "1.3",
+  "version": "1.4",
   "sourcePolicy": "public-declassified-only",
   "primarySource": "https://www.cia.gov/readingroom/",
   "records": [
@@ -570,6 +570,25 @@
       "sourceNote": "CIA Reading Room collection with a broad range of historical records and documents.",
       "directSource": "https://www.cia.gov/readingroom/collection/general-cia-records",
       "simulationAccess": "CONFIDENTIAL"
+    },
+    {
+      "id": "nixon-prc-1972",
+      "title": "Nixon Collection — China Trip, 1972",
+      "topics": [
+        "nixon",
+        "china",
+        "beijing",
+        "mao",
+        "kissinger",
+        "presidential intelligence",
+        "1972"
+      ],
+      "type": "collection",
+      "description": "Eight public CIA documents prepared for President Nixon's February 1972 trip to the People's Republic of China, including city guides, an atlas, and leadership profiles.",
+      "source": "https://www.cia.gov/readingroom/collection/nixon-collection",
+      "sourceNote": "CIA says the release contains eight documents / 331 pages.",
+      "directSource": "https://www.cia.gov/readingroom/collection/nixon-collection",
+      "simulationAccess": "SECRET"
     }
   ],
   "schemaNote": "simulationAccess is a fictional CICAN gameplay gate. sourceClassification, when present, describes the historical classification marking reported by the public source. Neither field grants or represents real access."
