@@ -1,5 +1,5 @@
 {
-  "version": "1.8",
+  "version": "1.9",
   "sourcePolicy": "public-declassified-only",
   "primarySource": "https://www.cia.gov/readingroom/",
   "records": [
@@ -75,7 +75,8 @@
       "source": "https://www.cia.gov/readingroom/",
       "sourceNote": "CIA Reading Room collection: STARGATE.",
       "directSource": "https://www.cia.gov/readingroom/document/cia-rdp96-00789r001700450005-0",
-      "simulationAccess": "TOP SECRET"
+      "simulationAccess": "TOP SECRET",
+      "publicAttachment": "CIA-RDP96-00789R001700450005-0.pdf"
     },
     {
       "id": "central-intelligence-bulletin-1961",
@@ -95,7 +96,8 @@
       "source": "https://www.cia.gov/readingroom/",
       "sourceNote": "CIA Reading Room Current/Central Intelligence Bulletin collection.",
       "directSource": "https://www.cia.gov/readingroom/document/0005995995",
-      "simulationAccess": "TOP SECRET"
+      "simulationAccess": "TOP SECRET",
+      "publicAttachment": "DOC_0005995995.pdf"
     },
     {
       "id": "infiltration-groups-1968",
@@ -112,7 +114,8 @@
       "source": "https://www.cia.gov/readingroom/document/cia-rdp78t02095r000100060011-1",
       "sourceNote": "CIA FOIA document; original classification marked Secret.",
       "simulationAccess": "SECRET",
-      "sourceClassification": "Secret"
+      "sourceClassification": "Secret",
+      "publicAttachment": "CIA-RDP78T02095R000100060011-1.pdf"
     },
     {
       "id": "reconnaissance-operations",
@@ -183,7 +186,8 @@
       "source": "https://www.cia.gov/readingroom/collection/presidents-daily-brief-1961-1969",
       "sourceNote": "CIA Reading Room collection.",
       "directSource": "https://www.cia.gov/readingroom/document/0005958920",
-      "simulationAccess": "TOP SECRET"
+      "simulationAccess": "TOP SECRET",
+      "publicAttachment": "DOC_0005958920.pdf"
     },
     {
       "id": "presidents-daily-brief-1969-1977",
