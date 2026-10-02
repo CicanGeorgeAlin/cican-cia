@@ -75,8 +75,7 @@
       "source": "https://www.cia.gov/readingroom/",
       "sourceNote": "CIA Reading Room collection: STARGATE.",
       "directSource": "https://www.cia.gov/readingroom/document/cia-rdp96-00789r001700450005-0",
-      "simulationAccess": "TOP SECRET",
-      "directFile": "https://www.cia.gov/readingroom/docs/CIA-RDP96-00789R001700450005-0.pdf"
+      "simulationAccess": "TOP SECRET"
     },
     {
       "id": "central-intelligence-bulletin-1961",
@@ -96,8 +95,7 @@
       "source": "https://www.cia.gov/readingroom/",
       "sourceNote": "CIA Reading Room Current/Central Intelligence Bulletin collection.",
       "directSource": "https://www.cia.gov/readingroom/document/0005995995",
-      "simulationAccess": "TOP SECRET",
-      "directFile": "https://www.cia.gov/readingroom/docs/DOC_0005995995.pdf"
+      "simulationAccess": "TOP SECRET"
     },
     {
       "id": "infiltration-groups-1968",
@@ -114,8 +112,7 @@
       "source": "https://www.cia.gov/readingroom/document/cia-rdp78t02095r000100060011-1",
       "sourceNote": "CIA FOIA document; original classification marked Secret.",
       "simulationAccess": "SECRET",
-      "sourceClassification": "Secret",
-      "directFile": "https://www.cia.gov/readingroom/docs/CIA-RDP78T02095R000100060011-1.pdf"
+      "sourceClassification": "Secret"
     },
     {
       "id": "reconnaissance-operations",
@@ -132,8 +129,7 @@
       "source": "https://www.cia.gov/readingroom/document/cia-rdp90t00782r000100120001-0",
       "sourceNote": "CIA FOIA document; original classification marked Secret.",
       "simulationAccess": "SECRET",
-      "sourceClassification": "Secret",
-      "directFile": "https://www.cia.gov/readingroom/docs/CIA-RDP90T00782R000100120001-0.pdf"
+      "sourceClassification": "Secret"
     },
     {
       "id": "romanian-military-information",
@@ -151,8 +147,7 @@
       "source": "https://www.cia.gov/readingroom/document/cia-rdp80-00247a001600110001-0",
       "sourceNote": "CIA FOIA document; original classification marked Secret.",
       "simulationAccess": "SECRET",
-      "sourceClassification": "Secret",
-      "directFile": "https://www.cia.gov/readingroom/docs/CIA-RDP80-00247A001600110001-0.pdf"
+      "sourceClassification": "Secret"
     },
     {
       "id": "general-military-information-1951",
@@ -168,8 +163,7 @@
       "source": "https://www.cia.gov/readingroom/document/cia-rdp82-00457r009200240011-6",
       "sourceNote": "CIA FOIA document; original classification marked Secret.",
       "simulationAccess": "SECRET",
-      "sourceClassification": "Secret",
-      "directFile": "https://www.cia.gov/readingroom/docs/CIA-RDP82-00457R009200240011-6.pdf"
+      "sourceClassification": "Secret"
     },
     {
       "id": "presidents-daily-brief-1961-1969",
@@ -189,8 +183,7 @@
       "source": "https://www.cia.gov/readingroom/collection/presidents-daily-brief-1961-1969",
       "sourceNote": "CIA Reading Room collection.",
       "directSource": "https://www.cia.gov/readingroom/document/0005958920",
-      "simulationAccess": "TOP SECRET",
-      "directFile": "https://www.cia.gov/readingroom/docs/DOC_0005958920.pdf"
+      "simulationAccess": "TOP SECRET"
     },
     {
       "id": "presidents-daily-brief-1969-1977",
@@ -325,8 +318,7 @@
       "source": "https://www.cia.gov/readingroom/",
       "sourceNote": "CIA Electronic Reading Room collection listed in its Advanced Search Guide.",
       "directSource": "https://www.cia.gov/readingroom/document/0000015408",
-      "simulationAccess": "SECRET",
-      "directFile": "https://www.cia.gov/readingroom/docs/DOC_0000015408.pdf"
+      "simulationAccess": "SECRET"
     },
     {
       "id": "oss-collection",
@@ -522,8 +514,7 @@
       "source": "https://www.cia.gov/readingroom/document/0000012392",
       "sourceNote": "CIA FOIA documents in the collection 'Lt. Col. Oleg Penkovsky: Western Spy in Soviet GRU'; the linked record is a 40-page 1961 London meeting document.",
       "directSource": "https://www.cia.gov/readingroom/document/0000012392",
-      "simulationAccess": "TOP SECRET",
-      "directFile": "https://www.cia.gov/readingroom/docs/DOC_0000012392.pdf"
+      "simulationAccess": "TOP SECRET"
     },
     {
       "id": "original-wizards-langley",
@@ -541,8 +532,7 @@
       "source": "https://www.cia.gov/resources/publications/office-of-scientific-intelligence-the-original-wizards-of-langley/",
       "sourceNote": "CIA publication page states the collection includes a three-volume OSI history, selected National Intelligence Estimates, intelligence reports, Studies in Intelligence articles, and early OSI historical documents.",
       "directSource": "https://www.cia.gov/readingroom/document/5077050b993247d4d82b6a27",
-      "simulationAccess": "SECRET",
-      "directFile": "https://www.cia.gov/readingroom/specialCollection/Wizards/osi_pdf/science_and_tech_orig.pdf"
+      "simulationAccess": "SECRET"
     },
     {
       "id": "jprs-east-europe",
@@ -561,8 +551,7 @@
       "sourceNote": "CIA FOIA/CREST document JPRS L/10599, East Europe Report: Scientific Affairs, dated 18 June 1982; 13 pages; original classification marked Unclassified.",
       "directSource": "https://www.cia.gov/readingroom/document/cia-rdp82-00850r000500070045-0",
       "simulationAccess": "CONFIDENTIAL",
-      "sourceClassification": "Unclassified",
-      "directFile": "https://www.cia.gov/readingroom/docs/CIA-RDP82-00850R000500070045-0.pdf"
+      "sourceClassification": "Unclassified"
     },
     {
       "id": "general-cia-records",
@@ -617,8 +606,7 @@
       "source": "https://www.cia.gov/readingroom/document/0000494271",
       "sourceNote": "CIA FOIA record identified as part of The Princeton Collection; the linked record is a 97-page 1962 report on Soviet helicopter development.",
       "directSource": "https://www.cia.gov/readingroom/document/0000494271",
-      "simulationAccess": "CONFIDENTIAL",
-      "directFile": "https://www.cia.gov/readingroom/docs/DOC_0000494271.pdf"
+      "simulationAccess": "CONFIDENTIAL"
     },
     {
       "id": "strategic-warning-1968",
@@ -636,8 +624,7 @@
       "source": "https://www.cia.gov/readingroom/",
       "sourceNote": "CIA's Advanced Search Guide lists this historical collection; the linked document is a public Strategic Warning Staff record.",
       "directSource": "https://www.cia.gov/readingroom/document/cia-rdp83b01027r000300160007-4",
-      "simulationAccess": "SECRET",
-      "directFile": "https://www.cia.gov/readingroom/docs/CIA-RDP83B01027R000300160007-4.pdf"
+      "simulationAccess": "SECRET"
     },
     {
       "id": "soviet-warsaw-pact-journals",
@@ -656,8 +643,7 @@
       "sourceNote": "CIA FOIA record from the Soviet and Warsaw Pact Military Journals collection; the collection covers sensitive military journals from 1961 to 1984.",
       "directSource": "https://www.cia.gov/readingroom/document/0001199065",
       "simulationAccess": "SECRET",
-      "sourceClassification": "Unclassified",
-      "directFile": "https://www.cia.gov/readingroom/docs/DOC_0001199065.pdf"
+      "sourceClassification": "Unclassified"
     },
     {
       "id": "soviet-navy-analysis",
@@ -693,8 +679,7 @@
       "sourceNote": "CIA CREST record from the Scientific Abstracts collection; the selected record is a 1967 scientific abstract.",
       "directSource": "https://www.cia.gov/readingroom/document/cia-rdp86-00513r000309220004-1",
       "simulationAccess": "SECRET",
-      "sourceClassification": "Secret",
-      "directFile": "https://www.cia.gov/readingroom/docs/CIA-RDP86-00513R000309220004-1.pdf"
+      "sourceClassification": "Secret"
     },
     {
       "id": "human-rights-latin-america",
@@ -713,8 +698,7 @@
       "sourceNote": "CIA FOIA record in the Human Rights in Latin America collection; the selected 1982 Peru report is marked Unclassified.",
       "directSource": "https://www.cia.gov/readingroom/document/0000037954",
       "simulationAccess": "CONFIDENTIAL",
-      "sourceClassification": "Unclassified",
-      "directFile": "https://www.cia.gov/readingroom/docs/DOC_0000037954.pdf"
+      "sourceClassification": "Unclassified"
     },
     {
       "id": "martial-law-kuklinski",
@@ -825,8 +809,7 @@
       "sourceNote": "CIA FOIA record from the NIC Collection: Soviet Strategic Defenses (NIE 11-3-69), a 29-page 1969 National Intelligence Estimate.",
       "directSource": "https://www.cia.gov/readingroom/document/0000278486",
       "simulationAccess": "SECRET",
-      "sourceClassification": "Unclassified",
-      "directFile": "https://www.cia.gov/readingroom/docs/DOC_0000278486.pdf"
+      "sourceClassification": "Unclassified"
     },
     {
       "id": "intelligence-policy-politics",
@@ -844,8 +827,7 @@
       "source": "https://www.cia.gov/readingroom/document/5166d49399326091c6a6043c",
       "sourceNote": "CIA FOIA record identified as part of the special collection Intelligence, Policy, and Politics: The DCI, the White House, and Congress.",
       "directSource": "https://www.cia.gov/readingroom/document/5166d49399326091c6a6043c",
-      "simulationAccess": "CONFIDENTIAL",
-      "directFile": "https://www.cia.gov/readingroom/specialCollection/DCI/Souers%20FOIA/Mar-Apr%201946/1946-03-30.pdf"
+      "simulationAccess": "CONFIDENTIAL"
     },
     {
       "id": "stories-sacrifice-dedication",
