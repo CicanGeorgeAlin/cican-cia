@@ -6,7 +6,15 @@
     {
       "id": "cold-war-eastern-europe",
       "title": "The Collapse of Communism in Eastern Europe",
-      "topics": ["cold war","soviet","ussr","eastern europe","communism","berlin","warsaw pact"],
+      "topics": [
+        "cold war",
+        "soviet",
+        "ussr",
+        "eastern europe",
+        "communism",
+        "berlin",
+        "warsaw pact"
+      ],
       "access": "CONFIDENTIAL",
       "type": "collection",
       "description": "CIA National Intelligence Daily reporting covering Central and Eastern Europe from February 1989 to March 1990.",
@@ -16,7 +24,15 @@
     {
       "id": "aquiline",
       "title": "Aquiline",
-      "topics": ["ufo","uap","drone","aircraft","aquiline","aerial intelligence","uav"],
+      "topics": [
+        "ufo",
+        "uap",
+        "drone",
+        "aircraft",
+        "aquiline",
+        "aerial intelligence",
+        "uav"
+      ],
       "access": "SECRET",
       "type": "collection",
       "description": "A declassified CIA collection concerning the 1960s Aquiline concept for unmanned aerial intelligence collection.",
@@ -26,7 +42,18 @@
     {
       "id": "crest",
       "title": "CREST — Declassified Records",
-      "topics": ["espionage","cia","intelligence","cold war","vietnam","u2","terrorism","military","archive","records"],
+      "topics": [
+        "espionage",
+        "cia",
+        "intelligence",
+        "cold war",
+        "vietnam",
+        "u2",
+        "terrorism",
+        "military",
+        "archive",
+        "records"
+      ],
       "access": "SECRET",
       "type": "collection",
       "description": "CIA's large online archive of historical declassified records.",
@@ -36,7 +63,13 @@
     {
       "id": "stargate",
       "title": "STARGATE",
-      "topics": ["psychology","psychic","remote viewing","stargate","parapsychology"],
+      "topics": [
+        "psychology",
+        "psychic",
+        "remote viewing",
+        "stargate",
+        "parapsychology"
+      ],
       "access": "TOP SECRET",
       "type": "collection",
       "description": "Declassified records from a multi-year U.S. Intelligence Community effort involving remote viewing research.",
@@ -46,7 +79,16 @@
     {
       "id": "central-intelligence-bulletin-1961",
       "title": "Current/Central Intelligence Bulletin — 1961",
-      "topics": ["nuclear","missile","kennedy","cold war","cuba","bay of pigs","soviet","intelligence bulletin"],
+      "topics": [
+        "nuclear",
+        "missile",
+        "kennedy",
+        "cold war",
+        "cuba",
+        "bay of pigs",
+        "soviet",
+        "intelligence bulletin"
+      ],
       "access": "TOP SECRET",
       "type": "collection",
       "description": "Historical presidential intelligence reporting from the Kennedy era; the CIA Reading Room identifies a release covering 2 January–30 June 1961.",
@@ -56,7 +98,13 @@
     {
       "id": "infiltration-groups-1968",
       "title": "Status of Infiltration Groups — 1968",
-      "topics": ["vietnam","infiltration","military","southeast asia","laos"],
+      "topics": [
+        "vietnam",
+        "infiltration",
+        "military",
+        "southeast asia",
+        "laos"
+      ],
       "access": "SECRET",
       "type": "document",
       "description": "A declassified CREST report covering infiltration groups from January through May 1968.",
@@ -66,7 +114,13 @@
     {
       "id": "reconnaissance-operations",
       "title": "Reconnaissance Operations",
-      "topics": ["reconnaissance","u2","aircraft","intelligence collection","cold war"],
+      "topics": [
+        "reconnaissance",
+        "u2",
+        "aircraft",
+        "intelligence collection",
+        "cold war"
+      ],
       "access": "SECRET",
       "type": "document",
       "description": "A declassified CREST document concerning reconnaissance operations.",
@@ -76,7 +130,14 @@
     {
       "id": "romanian-military-information",
       "title": "Miscellaneous Military Information",
-      "topics": ["romania","rumania","military","bucharest","galati","rocket launchers"],
+      "topics": [
+        "romania",
+        "rumania",
+        "military",
+        "bucharest",
+        "galati",
+        "rocket launchers"
+      ],
       "access": "SECRET",
       "type": "document",
       "description": "A declassified 1964 CIA report containing military information concerning Rumania.",
@@ -86,12 +147,237 @@
     {
       "id": "general-military-information-1951",
       "title": "General Military Information",
-      "topics": ["military","cold war","1951","eastern europe"],
+      "topics": [
+        "military",
+        "cold war",
+        "1951",
+        "eastern europe"
+      ],
       "access": "SECRET",
       "type": "document",
       "description": "A declassified CREST report published in October 1951.",
       "source": "https://www.cia.gov/readingroom/document/cia-rdp82-00457r009200240011-6",
       "sourceNote": "CIA FOIA document; original classification marked Secret."
+    },
+    {
+      "id": "presidents-daily-brief-1961-1969",
+      "title": "President's Daily Brief — 1961–1969",
+      "topics": [
+        "president",
+        "daily brief",
+        "kennedy",
+        "johnson",
+        "pdb",
+        "cuba",
+        "vietnam",
+        "cold war"
+      ],
+      "access": "TOP SECRET",
+      "type": "collection",
+      "description": "Publicly released historical President's Daily Brief material from 1961–1969.",
+      "source": "https://www.cia.gov/readingroom/collection/presidents-daily-brief-1961-1969",
+      "sourceNote": "CIA Reading Room collection."
+    },
+    {
+      "id": "presidents-daily-brief-1969-1977",
+      "title": "President's Daily Brief — 1969–1977",
+      "topics": [
+        "president",
+        "daily brief",
+        "nixon",
+        "ford",
+        "china",
+        "vietnam",
+        "opec",
+        "arab-israeli"
+      ],
+      "access": "TOP SECRET",
+      "type": "collection",
+      "description": "Roughly 2,500 previously classified PDBs from the Nixon and Ford administrations were released; CIA says about 85% of the collection was declassified at the time of release.",
+      "source": "https://www.cia.gov/readingroom/presidents-daily-brief",
+      "sourceNote": "CIA public release and FOIA collection."
+    },
+    {
+      "id": "vietnam-collection",
+      "title": "Vietnam Collection",
+      "topics": [
+        "vietnam",
+        "indochina",
+        "southeast asia",
+        "saigon",
+        "north vietnam",
+        "south vietnam"
+      ],
+      "access": "SECRET",
+      "type": "collection",
+      "description": "National Intelligence Council Vietnam estimates and papers and related historical records.",
+      "source": "https://www.cia.gov/readingroom/collection/vietnam-collection",
+      "sourceNote": "CIA Historical Intelligence Collection."
+    },
+    {
+      "id": "vietnam-histories",
+      "title": "Vietnam Histories",
+      "topics": [
+        "vietnam",
+        "history",
+        "cia history",
+        "indochina"
+      ],
+      "access": "SECRET",
+      "type": "collection",
+      "description": "Historical accounts concerning CIA activities and intelligence work during the Vietnam era.",
+      "source": "https://www.cia.gov/readingroom/collection/vietnam-histories",
+      "sourceNote": "CIA Historical Documents Collection."
+    },
+    {
+      "id": "u2-oxcart",
+      "title": "12 — OXCART Reconnaissance Aircraft Documentation",
+      "topics": [
+        "u2",
+        "oxcart",
+        "a12",
+        "reconnaissance",
+        "spy plane",
+        "aircraft",
+        "imagery"
+      ],
+      "access": "TOP SECRET",
+      "type": "collection",
+      "description": "Historical CIA documentation concerning the OXCART/A-12 reconnaissance aircraft program.",
+      "source": "https://www.cia.gov/readingroom/collection/12-oxcart-reconnaissance-aircraft-documentation",
+      "sourceNote": "CIA collection referenced in the Agency's Southeast Asia history."
+    },
+    {
+      "id": "berlin-wall",
+      "title": "The Berlin Wall Collection",
+      "topics": [
+        "berlin",
+        "berlin wall",
+        "germany",
+        "east germany",
+        "cold war"
+      ],
+      "access": "SECRET",
+      "type": "collection",
+      "description": "CIA historical collection concerning the construction and intelligence context of the Berlin Wall.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA Electronic Reading Room collection listed in its Advanced Search Guide."
+    },
+    {
+      "id": "china-collection",
+      "title": "The China Collection",
+      "topics": [
+        "china",
+        "beijing",
+        "mao",
+        "nixon",
+        "kissinger",
+        "prc"
+      ],
+      "access": "SECRET",
+      "type": "collection",
+      "description": "CIA historical records concerning China and U.S. intelligence reporting.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA Electronic Reading Room collection listed in its Advanced Search Guide."
+    },
+    {
+      "id": "secret-writing",
+      "title": "Secret Writing",
+      "topics": [
+        "secret writing",
+        "codes",
+        "ciphers",
+        "covert communication",
+        "tradecraft"
+      ],
+      "access": "TOP SECRET",
+      "type": "collection",
+      "description": "Historical CIA records concerning secret-writing methods and related intelligence tradecraft.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA Electronic Reading Room collection listed in its Advanced Search Guide."
+    },
+    {
+      "id": "ufo-fact-fiction",
+      "title": "UFOs: Fact or Fiction?",
+      "topics": [
+        "ufo",
+        "uap",
+        "flying saucer",
+        "unidentified",
+        "cia"
+      ],
+      "access": "SECRET",
+      "type": "collection",
+      "description": "CIA historical collection concerning UFO-related records and investigations.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA Electronic Reading Room collection listed in its Advanced Search Guide."
+    },
+    {
+      "id": "oss-collection",
+      "title": "OSS Collection",
+      "topics": [
+        "oss",
+        "world war ii",
+        "wwii",
+        "strategic services",
+        "espionage",
+        "wartime intelligence"
+      ],
+      "access": "CONFIDENTIAL",
+      "type": "collection",
+      "description": "Records from the Office of Strategic Services, the World War II-era predecessor organization to the CIA.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA Electronic Reading Room collection listed in its Advanced Search Guide."
+    },
+    {
+      "id": "nazi-war-crimes",
+      "title": "Nazi War Crimes Disclosure Act Collection",
+      "topics": [
+        "nazi",
+        "war crimes",
+        "wwii",
+        "germany",
+        "war criminals",
+        "holocaust"
+      ],
+      "access": "CONFIDENTIAL",
+      "type": "collection",
+      "description": "Historical records released under the Nazi War Crimes Disclosure Act.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA Electronic Reading Room collection listed in its Advanced Search Guide."
+    },
+    {
+      "id": "pow-mia",
+      "title": "POW/MIA Records",
+      "topics": [
+        "pow",
+        "mia",
+        "prisoners of war",
+        "missing in action",
+        "vietnam",
+        "korea"
+      ],
+      "access": "CONFIDENTIAL",
+      "type": "collection",
+      "description": "Historical records concerning prisoners of war and missing-in-action matters.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA Electronic Reading Room collection listed in its Advanced Search Guide."
+    },
+    {
+      "id": "detention-interrogation",
+      "title": "Former Detention and Interrogation Program",
+      "topics": [
+        "detention",
+        "interrogation",
+        "terrorism",
+        "counterterrorism",
+        "cia"
+      ],
+      "access": "SECRET",
+      "type": "collection",
+      "description": "Fifty declassified documents released by CIA in 2016 concerning the former Detention and Interrogation program.",
+      "source": "https://www.cia.gov/readingroom/collection/documents-related-former-detention-and-interrogation-program",
+      "sourceNote": "CIA announced the release of 50 declassified documents in June 2016."
     }
   ]
 }
