@@ -38,6 +38,13 @@ function answer(kind){
   const key="cicanCase_"+id;
   if(!localStorage.getItem(key)){p.xp+=100;p.discoveries++;p.verified++;p.lessons=(p.lessons||0)+1;localStorage.setItem("cicanCiaProfile",JSON.stringify(p));localStorage.setItem(key,"1");document.getElementById("xp").textContent="RESEARCH VERIFIED · +100 XP · LESSON RECORDED"}else document.getElementById("xp").textContent="RESEARCH ALREADY VERIFIED";
   result.textContent=c.answer;
+  const nextBox=document.getElementById("next");
+  if(catalog){
+   fetch("records.json").then(r=>r.json()).then(data=>{
+    const related=data.records.filter(x=>x.id!==catalog.id && (catalog.topics||[]).some(t=>(x.topics||[]).includes(t))).slice(0,3);
+    if(related.length){nextBox.innerHTML="<b>NEXT RESEARCH PATH</b>"+related.map(x=>'<a href="investigation.html?id='+encodeURIComponent(x.id)+'">'+x.title+' →</a>').join("");nextBox.classList.add("show");}
+   }).catch(()=>{});
+  }
   document.getElementById("source").style.display="block";
   document.getElementById("source").innerHTML='<a href="'+(c.source)+'" target="_blank" rel="noopener">OPEN PUBLIC SOURCE →</a><div style="margin-top:8px;color:rgba(255,255,255,.28);font-size:8px;letter-spacing:1px">SOURCE VERIFIED · PUBLIC RECORD GATE</div>';
  }else{result.textContent="Not quite. The stronger research approach is the one that narrows the question and then verifies the answer against the original public source.";document.getElementById("xp").textContent="NO XP · TRY AGAIN";}
