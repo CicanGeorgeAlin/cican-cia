@@ -589,6 +589,42 @@
       "sourceNote": "CIA says the release contains eight documents / 331 pages.",
       "directSource": "https://www.cia.gov/readingroom/collection/nixon-collection",
       "simulationAccess": "SECRET"
+    },
+    {
+      "id": "princeton-collection",
+      "title": "The Princeton Collection",
+      "topics": [
+        "princeton",
+        "soviet union",
+        "economics",
+        "military",
+        "cold war",
+        "research reports"
+      ],
+      "type": "collection",
+      "description": "Public CIA records in the Princeton Collection, including historical research on Soviet economic, military, and industrial subjects.",
+      "source": "https://www.cia.gov/readingroom/document/0000494271",
+      "sourceNote": "CIA FOIA record identified as part of The Princeton Collection; the linked record is a 97-page 1962 report on Soviet helicopter development.",
+      "directSource": "https://www.cia.gov/readingroom/document/0000494271",
+      "simulationAccess": "CONFIDENTIAL"
+    },
+    {
+      "id": "strategic-warning-1968",
+      "title": "Strategic Warning and the 1968 Soviet Invasion of Czechoslovakia",
+      "topics": [
+        "strategic warning",
+        "czechoslovakia",
+        "1968",
+        "soviet union",
+        "warning intelligence",
+        "cold war"
+      ],
+      "type": "collection",
+      "description": "Public CIA historical material examining strategic warning and intelligence lessons associated with the 1968 Soviet invasion of Czechoslovakia.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA's Advanced Search Guide lists this historical collection; the linked document is a public Strategic Warning Staff record.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp83b01027r000300160007-4",
+      "simulationAccess": "SECRET"
     }
   ],
   "schemaNote": "simulationAccess is a fictional CICAN gameplay gate. sourceClassification, when present, describes the historical classification marking reported by the public source. Neither field grants or represents real access."
