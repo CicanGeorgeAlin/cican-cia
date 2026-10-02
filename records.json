@@ -1,5 +1,5 @@
 {
-  "version": "1.6",
+  "version": "1.7",
   "sourcePolicy": "public-declassified-only",
   "primarySource": "https://www.cia.gov/readingroom/",
   "records": [
@@ -894,6 +894,151 @@
       "description": "Public CIA Reading Room records associated with the Reagan Collection and intelligence during the 1980s.",
       "source": "https://www.cia.gov/readingroom/",
       "sourceNote": "CIA's Electronic Reading Room Advanced Search Guide lists the Reagan Collection as a historical collection.",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "cia-analysis-soviet-1947-1991",
+      "title": "CIA's Analysis of the Soviet Union, 1947–1991",
+      "topics": [
+        "soviet union",
+        "cold war",
+        "analysis",
+        "economics",
+        "military",
+        "science",
+        "politics"
+      ],
+      "type": "documentary collection",
+      "description": "Declassified CIA analytical documents spanning Soviet political, economic, military, and scientific developments from 1947 to 1991.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/cias-analysis-of-the-soviet-union-1947-1991-2/",
+      "sourceNote": "CIA collection: 49 selected documents and 322 pages, with additional released USSR analytic material.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/cias-analysis-of-the-soviet-union-1947-1991-2/",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "assessing-soviet-threat",
+      "title": "Assessing the Soviet Threat — Early Cold War Years, 1946–1950",
+      "topics": [
+        "soviet union",
+        "early cold war",
+        "current intelligence",
+        "analysis",
+        "korea",
+        "1946-1950"
+      ],
+      "type": "documentary collection",
+      "description": "208 declassified analytical intelligence reports covering the development of the early Cold War from 1946 through November 1950.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/assessing-the-soviet-threat/",
+      "sourceNote": "CIA collection: 466 pages and 208 declassified reports from the Current Intelligence Group and CIA.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/assessing-the-soviet-threat/",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "cuban-missile-crisis-1962",
+      "title": "CIA Documents on the Cuban Missile Crisis, 1962",
+      "topics": [
+        "cuba",
+        "cuban missile crisis",
+        "kennedy",
+        "soviet union",
+        "nuclear",
+        "crisis intelligence"
+      ],
+      "type": "documentary collection",
+      "description": "Declassified CIA documents assembled to document the intelligence role during the Cuban Missile Crisis.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/cuban-missile-crisis-1962/",
+      "sourceNote": "CIA historical collection containing 112 documents with a preface, introduction, and research guides.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/cuban-missile-crisis-1962/",
+      "simulationAccess": "TOP SECRET"
+    },
+    {
+      "id": "baptism-by-fire-korea",
+      "title": "Baptism by Fire — CIA and the Korean War",
+      "topics": [
+        "korean war",
+        "korea",
+        "1950",
+        "intelligence warning",
+        "cold war",
+        "analysis"
+      ],
+      "type": "historical publication",
+      "description": "CIA historical material examining intelligence and the Agency's limited capabilities around the outbreak of the Korean War.",
+      "source": "https://www.cia.gov/resources/publications/baptism-by-fire/",
+      "sourceNote": "CIA publication with declassified FOIA documents concerning the Korean War period.",
+      "directSource": "https://www.cia.gov/resources/publications/baptism-by-fire/",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "civil-air-transport-histories",
+      "title": "Clandestine Services Histories of Civil Air Transport",
+      "topics": [
+        "civil air transport",
+        "cat",
+        "air america",
+        "laos",
+        "vietnam",
+        "covert aviation"
+      ],
+      "type": "historical collection",
+      "description": "Released excerpts from CIA Clandestine Services Histories documenting Civil Air Transport and its predecessor relationship to Air America.",
+      "source": "https://www.cia.gov/resources/publications/cias-clandestine-services-histories-of-civil-air-transport/",
+      "sourceNote": "CIA publication released in 2011 from Clandestine Services Histories of Civil Air Transport.",
+      "directSource": "https://www.cia.gov/resources/publications/cias-clandestine-services-histories-of-civil-air-transport/",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "sacrifice-dedication-cat-air-america",
+      "title": "Stories of Sacrifice and Dedication — CAT, Air America and CIA",
+      "topics": [
+        "civil air transport",
+        "air america",
+        "laos",
+        "lima site 85",
+        "china",
+        "cia history"
+      ],
+      "type": "historical collection",
+      "description": "CIA historical material covering Lima Site 85 and a Civil Air Transport flight involving agent recovery inside Communist China.",
+      "source": "https://www.cia.gov/resources/publications/stories-of-sacrifice-and-dedication-civil-air-transport-air-america-and-the-cia/",
+      "sourceNote": "CIA publication with essays, transcripts, CAT Bulletin excerpts, and declassified historical material.",
+      "directSource": "https://www.cia.gov/resources/publications/stories-of-sacrifice-and-dedication-civil-air-transport-air-america-and-the-cia/",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "air-america-publication",
+      "title": "Air America — Upholding the Airmen's Bond",
+      "topics": [
+        "air america",
+        "laos",
+        "vietnam",
+        "rescue",
+        "aviation",
+        "pilot reports"
+      ],
+      "type": "historical collection",
+      "description": "Public CIA historical material on Air America operations, pilot rescues, and after-action reporting in Southeast Asia.",
+      "source": "https://www.cia.gov/resources/publications/air-america-upholding-the-airmens-bond/",
+      "sourceNote": "CIA publication containing first-person rescue accounts, Air America operations material, and pilot after-action reports.",
+      "directSource": "https://www.cia.gov/resources/publications/air-america-upholding-the-airmens-bond/",
+      "simulationAccess": "CONFIDENTIAL"
+    },
+    {
+      "id": "predicting-soviet-afghanistan",
+      "title": "Predicting the Soviet Invasion of Afghanistan",
+      "topics": [
+        "afghanistan",
+        "soviet union",
+        "1979",
+        "strategic warning",
+        "prediction",
+        "intelligence analysis"
+      ],
+      "type": "historical publication",
+      "description": "CIA Center for the Study of Intelligence study examining intelligence judgments surrounding the Soviet invasion of Afghanistan.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/predicting-the-soviet-invasion-of-afghanistan/",
+      "sourceNote": "Listed by CIA among its Cold War intelligence and intelligence-analysis tradecraft monographs.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/predicting-the-soviet-invasion-of-afghanistan/",
       "simulationAccess": "SECRET"
     }
   ],
