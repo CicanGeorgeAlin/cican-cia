@@ -63,7 +63,11 @@ const ranks=[
  {name:"ANALYST",label:"CONFIDENTIAL",note:"Formal classification level — simulated for gameplay."},
  {name:"ANALYST",label:"SECRET",note:"Formal classification level — simulated for gameplay."},
  {name:"SENIOR ANALYST",label:"TOP SECRET",note:"Highest formal U.S. classification level — simulated for gameplay."},
- {name:"COMPARTMENT",label:"SPECIAL ACCESS",note:"A gameplay layer inspired by real compartmented access systems. Not a higher classification level."}
+ {name:"SCI",label:"SENSITIVE COMPARTMENTED INFORMATION",note:"Controlled-access layer. Not a fourth classification level."},
+ {name:"SI",label:"COMPARTMENT",note:"Historical control-channel example; the exact handling depends on the program and record."},
+ {name:"TK",label:"COMPARTMENT",note:"Historical control-channel example; access remains separately controlled."},
+ {name:"GAMMA",label:"COMPARTMENT",note:"Historical term from declassified material; treated here as a simulated compartment."},
+ {name:"NEED-TO-KNOW",label:"FINAL GATE",note:"Having a classification level or compartment does not automatically mean access to every record."}
 ];
 const records=[
  {keys:["cold","soviet","communism","russia","eastern europe"],title:"The Collapse of Communism in Eastern Europe",text:"A CIA historical collection covering National Intelligence Daily reporting from February 1989 to March 1990.",url:"https://www.cia.gov/readingroom/"},
@@ -76,6 +80,7 @@ const records=[
 const topic=(new URLSearchParams(location.search).get("topic")||"THE READING ROOM").trim();
 const lower=topic.toLowerCase();
 const record=records.find(r=>r.keys.some(k=>lower.includes(k)))||records[3];
+const accessTrail=["RECRUIT","CONFIDENTIAL","SECRET","TOP SECRET","SCI","SI","TK","GAMMA","NEED-TO-KNOW"];
 let stage=Math.min(Number(localStorage.getItem("cicanCiaStage")||0),ranks.length-1);
 document.getElementById("topic").textContent=topic.toUpperCase();
 document.getElementById("brief").textContent=ranks[stage].note;
