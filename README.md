@@ -1,6 +1,6 @@
-# CICAN CIA
+# CICAN
 
-CICAN CIA is an independent educational interface for exploring publicly available and declassified historical intelligence records.
+CICAN is an independent educational interface for exploring publicly available and declassified historical intelligence records.
 
 ## Experience
 
@@ -44,3 +44,13 @@ The project must never fabricate a CIA document, claim access to current classif
 ## Direction
 
 The next major layer is a growing, source-mapped archive: topic → real CIA collection/record → CICAN challenge → original document. The experience should make the user feel that they earned the next piece while keeping every source traceable to public material.
+
+## Legal / independence baseline
+
+CICAN is an independent educational and research project. It is not affiliated with, endorsed by, sponsored by, approved by, or operated by the U.S. Central Intelligence Agency or the U.S. Government. “CIA” is retained only where it is necessary to identify an actual government source, record, collection, or historical fact.
+
+The project does not use the CIA seal as its product identity. Simulated ranks, access stages, compartments, and missions are fictional gameplay elements and do not grant or imply real clearance or government authority.
+
+See **legal.html** for the project's current independence, source, privacy, copyright, external-link, and legal-review disclosures.
+
+This is a project-level disclosure baseline, not a jurisdiction-specific legal opinion. Commercial or app-store release should receive a professional legal review before publication.
