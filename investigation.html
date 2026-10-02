@@ -36,7 +36,7 @@ function answer(kind){
  if(kind==="correct"){
   const p=JSON.parse(localStorage.getItem("cicanCiaProfile")||'{"xp":0,"discoveries":0,"records":0,"verified":0,"lessons":0}');
   const key="cicanCase_"+id;
-  if(!localStorage.getItem(key)){p.xp+=100;p.discoveries++;p.verified++;p.lessons=(p.lessons||0)+1;localStorage.setItem("cicanCiaProfile",JSON.stringify(p));localStorage.setItem(key,"1");document.getElementById("xp").textContent="RESEARCH VERIFIED · +100 XP · LESSON RECORDED"}else document.getElementById("xp").textContent="RESEARCH ALREADY VERIFIED";
+  if(!localStorage.getItem(key)){p.xp+=100;p.discoveries++;p.records=(p.records||0)+1;p.verified++;p.lessons=(p.lessons||0)+1;localStorage.setItem("cicanCiaProfile",JSON.stringify(p));localStorage.setItem(key,"1");document.getElementById("xp").textContent="RESEARCH VERIFIED · +100 XP · LESSON RECORDED"}else document.getElementById("xp").textContent="RESEARCH ALREADY VERIFIED";
   result.textContent=c.answer;
   const nextBox=document.getElementById("next");
   if(catalog){
