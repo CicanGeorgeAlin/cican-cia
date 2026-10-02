@@ -106,7 +106,7 @@ async function loadCatalog(){
   const data=await res.json();
   const match=data.records.find(r=>r.topics.some(k=>lower.includes(k)));
   if(match){
-   record={keys:match.topics,title:match.title,text:match.description,url:match.source,directUrl:match.directFile||match.directSource||match.source,simulationAccess:match.simulationAccess,sourceClassification:match.sourceClassification};
+   record={keys:match.topics,title:match.title,text:match.description,url:match.source,directUrl:match.directSource||match.source,simulationAccess:match.simulationAccess,sourceClassification:match.sourceClassification};
    document.getElementById("brief").textContent=match.sourceNote+" Access path: "+match.simulationAccess+" simulation gate.";
   }
  }catch(e){document.getElementById("brief").textContent=record.text+" "+ranks[stage].note+" Public catalog unavailable.";document.getElementById("sourceLink").href=record.url;}
