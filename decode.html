@@ -38,6 +38,21 @@ html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#000;color:
 @keyframes pulse{from{width:20px;height:20px;opacity:.8}to{width:260px;height:260px;opacity:0}}
 @media(max-width:520px){#record{bottom:10%}.actions{flex-direction:column}#source{font-size:7px}}
 </style>
+<style>
+/* Readability layer — gameplay mechanics unchanged */
+#label,#rank{font-size:10px}
+#brief{font-size:13px;line-height:1.7}
+#hint{font-size:11px;line-height:1.5}
+#xp{font-size:10px}
+#record .level{font-size:10px}
+#record h2{font-size:21px}
+#record p{font-size:13px;line-height:1.65}
+#record .sourceLabel{font-size:10px;letter-spacing:1.5px;color:rgba(255,255,255,.5);margin:0 0 8px}
+.actions a,.actions button{font-size:10px;padding:12px 9px}
+#source{font-size:9px}
+#back{font-size:9px}
+@media(max-width:520px){#source{font-size:8px}}
+</style>
 </head>
 <body>
 <div id="hud"><div id="brand">CICAN</div><div id="rank">RECRUIT<br><span>SIMULATION</span></div></div>
@@ -54,7 +69,7 @@ html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#000;color:
   <h2 id="recordTitle"></h2>
   <p id="recordText"></p>
   <div class="actions">
-    <a id="sourceLink" target="_blank" rel="noopener">OPEN ORIGINAL</a>
+    <div class="sourceLabel">PUBLIC DOCUMENT · OPEN DIRECTLY IN THE CIA FOIA READING ROOM</div><a id="sourceLink" target="_blank" rel="noopener">READ ORIGINAL PUBLIC DOCUMENT →</a>
     <button id="advance">I READ IT — CONTINUE</button>
   </div>
 </div>
