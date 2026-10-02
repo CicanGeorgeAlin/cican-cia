@@ -11,6 +11,6 @@ fetch("records.json").then(r=>r.json()).then(data=>{
  const grid=document.getElementById("grid");
  if(!records.length){grid.innerHTML='<div class="empty">NO VERIFIED EVIDENCE YET.<br><br>Complete a research investigation to begin building your dossier.</div>';return}
  grid.innerHTML=records.map((r,i)=>'<article class="card"><div class="code">RECORD '+String(i+1).padStart(3,"0")+' · VERIFIED</div><h2>'+r.title+'</h2><div class="meta">'+(r.description||"Public historical record.")+'</div><div class="meta" style="margin-top:8px;color:rgba(255,255,255,.35)">TOPICS · '+(r.topics||[]).slice(0,6).join(" · ")+'</div><a href="investigation.html?id='+encodeURIComponent(r.id)+'">REOPEN INVESTIGATION →</a><a href="'+(r.directSource||r.source)+'" target="_blank" rel="noopener">OPEN PUBLIC SOURCE →</a></article>').join("");
-}).catch(()=>{document.getElementById("status").textContent="CATALOG UNAVAILABLE";});
+}).catch(()=>{document.getElementById("status").innerHTML="<span>CATALOG UNAVAILABLE</span><span><a href=\"network.html\" style=\"color:#fff\">RETRY RESEARCH NETWORK →</a></span>";document.getElementById("grid").innerHTML='<div class="empty">The public record catalog could not be loaded right now.<br><br>Try the research network again when the catalog is available.</div>';});
 </script><div style="position:fixed;left:16px;bottom:16px;z-index:4;font-size:7px;letter-spacing:1px;color:rgba(255,255,255,.22)"><a href="legal.html" style="color:inherit">LEGAL &amp; SOURCE POLICY</a> · <a href="privacy.html">PRIVACY &amp; STORAGE</a></div>
 </body></html>
