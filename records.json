@@ -1,0 +1,97 @@
+{
+  "version": "1.0",
+  "sourcePolicy": "public-declassified-only",
+  "primarySource": "https://www.cia.gov/readingroom/",
+  "records": [
+    {
+      "id": "cold-war-eastern-europe",
+      "title": "The Collapse of Communism in Eastern Europe",
+      "topics": ["cold war","soviet","ussr","eastern europe","communism","berlin","warsaw pact"],
+      "access": "CONFIDENTIAL",
+      "type": "collection",
+      "description": "CIA National Intelligence Daily reporting covering Central and Eastern Europe from February 1989 to March 1990.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA Reading Room collection: The Collapse of Communism in Eastern Europe: A 30-Year Legacy."
+    },
+    {
+      "id": "aquiline",
+      "title": "Aquiline",
+      "topics": ["ufo","uap","drone","aircraft","aquiline","aerial intelligence","uav"],
+      "access": "SECRET",
+      "type": "collection",
+      "description": "A declassified CIA collection concerning the 1960s Aquiline concept for unmanned aerial intelligence collection.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA Reading Room: Aquiline, 40 documents / 289 pages."
+    },
+    {
+      "id": "crest",
+      "title": "CREST — Declassified Records",
+      "topics": ["espionage","cia","intelligence","cold war","vietnam","u2","terrorism","military","archive","records"],
+      "access": "SECRET",
+      "type": "collection",
+      "description": "CIA's large online archive of historical declassified records.",
+      "source": "https://www.cia.gov/readingroom/collection/crest-25-year-program-archive",
+      "sourceNote": "CIA states the online CREST archive contains approximately 930,000 documents totaling more than 12 million pages."
+    },
+    {
+      "id": "stargate",
+      "title": "STARGATE",
+      "topics": ["psychology","psychic","remote viewing","stargate","parapsychology"],
+      "access": "TOP SECRET",
+      "type": "collection",
+      "description": "Declassified records from a multi-year U.S. Intelligence Community effort involving remote viewing research.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA Reading Room collection: STARGATE."
+    },
+    {
+      "id": "central-intelligence-bulletin-1961",
+      "title": "Current/Central Intelligence Bulletin — 1961",
+      "topics": ["nuclear","missile","kennedy","cold war","cuba","bay of pigs","soviet","intelligence bulletin"],
+      "access": "TOP SECRET",
+      "type": "collection",
+      "description": "Historical presidential intelligence reporting from the Kennedy era; the CIA Reading Room identifies a release covering 2 January–30 June 1961.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA Reading Room Current/Central Intelligence Bulletin collection."
+    },
+    {
+      "id": "infiltration-groups-1968",
+      "title": "Status of Infiltration Groups — 1968",
+      "topics": ["vietnam","infiltration","military","southeast asia","laos"],
+      "access": "SECRET",
+      "type": "document",
+      "description": "A declassified CREST report covering infiltration groups from January through May 1968.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp78t02095r000100060011-1",
+      "sourceNote": "CIA FOIA document; original classification marked Secret."
+    },
+    {
+      "id": "reconnaissance-operations",
+      "title": "Reconnaissance Operations",
+      "topics": ["reconnaissance","u2","aircraft","intelligence collection","cold war"],
+      "access": "SECRET",
+      "type": "document",
+      "description": "A declassified CREST document concerning reconnaissance operations.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp90t00782r000100120001-0",
+      "sourceNote": "CIA FOIA document; original classification marked Secret."
+    },
+    {
+      "id": "romanian-military-information",
+      "title": "Miscellaneous Military Information",
+      "topics": ["romania","rumania","military","bucharest","galati","rocket launchers"],
+      "access": "SECRET",
+      "type": "document",
+      "description": "A declassified 1964 CIA report containing military information concerning Rumania.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp80-00247a001600110001-0",
+      "sourceNote": "CIA FOIA document; original classification marked Secret."
+    },
+    {
+      "id": "general-military-information-1951",
+      "title": "General Military Information",
+      "topics": ["military","cold war","1951","eastern europe"],
+      "access": "SECRET",
+      "type": "document",
+      "description": "A declassified CREST report published in October 1951.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp82-00457r009200240011-6",
+      "sourceNote": "CIA FOIA document; original classification marked Secret."
+    }
+  ]
+}
