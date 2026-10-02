@@ -1,5 +1,5 @@
 {
-  "version": "1.4",
+  "version": "1.5",
   "sourcePolicy": "public-declassified-only",
   "primarySource": "https://www.cia.gov/readingroom/",
   "records": [
@@ -624,6 +624,153 @@
       "source": "https://www.cia.gov/readingroom/",
       "sourceNote": "CIA's Advanced Search Guide lists this historical collection; the linked document is a public Strategic Warning Staff record.",
       "directSource": "https://www.cia.gov/readingroom/document/cia-rdp83b01027r000300160007-4",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "soviet-warsaw-pact-journals",
+      "title": "Soviet and Warsaw Pact Military Journals",
+      "topics": [
+        "soviet union",
+        "warsaw pact",
+        "military thought",
+        "cold war",
+        "military strategy",
+        "open-source intelligence"
+      ],
+      "type": "collection",
+      "description": "Publicly released Soviet and Warsaw Pact military journal material covering military strategy and doctrine during the Cold War.",
+      "source": "https://www.cia.gov/readingroom/document/0001199065",
+      "sourceNote": "CIA FOIA record from the Soviet and Warsaw Pact Military Journals collection; the collection covers sensitive military journals from 1961 to 1984.",
+      "directSource": "https://www.cia.gov/readingroom/document/0001199065",
+      "simulationAccess": "SECRET",
+      "sourceClassification": "Unclassified"
+    },
+    {
+      "id": "soviet-navy-analysis",
+      "title": "Soviet Navy — Intelligence and Analysis During the Cold War",
+      "topics": [
+        "soviet navy",
+        "naval intelligence",
+        "cold war",
+        "military analysis",
+        "military thought"
+      ],
+      "type": "collection",
+      "description": "82 declassified documents covering CIA collection and analysis of the Soviet Navy from the 1960s through the 1980s.",
+      "source": "https://www.cia.gov/resources/publications/soviet-navy-intelligence-and-analysis-during-the-cold-war/",
+      "sourceNote": "CIA publication: 82 newly released documents spanning three decades and about 2,000 pages.",
+      "directSource": "https://www.cia.gov/resources/publications/soviet-navy-intelligence-and-analysis-during-the-cold-war/",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "scientific-abstracts",
+      "title": "Scientific Abstracts",
+      "topics": [
+        "science",
+        "technology",
+        "scientific intelligence",
+        "soviet science",
+        "technical reporting",
+        "crest"
+      ],
+      "type": "collection",
+      "description": "CREST records containing translated or summarized scientific and technical literature, illustrating historical scientific-intelligence collection.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp86-00513r000309220004-1",
+      "sourceNote": "CIA CREST record from the Scientific Abstracts collection; the selected record is a 1967 scientific abstract.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp86-00513r000309220004-1",
+      "simulationAccess": "SECRET",
+      "sourceClassification": "Secret"
+    },
+    {
+      "id": "human-rights-latin-america",
+      "title": "Human Rights in Latin America",
+      "topics": [
+        "human rights",
+        "latin america",
+        "peru",
+        "el salvador",
+        "truth commission",
+        "political violence"
+      ],
+      "type": "collection",
+      "description": "Public CIA records in the Human Rights in Latin America collection, including reporting later released through the Reading Room.",
+      "source": "https://www.cia.gov/readingroom/document/0000037954",
+      "sourceNote": "CIA FOIA record in the Human Rights in Latin America collection; the selected 1982 Peru report is marked Unclassified.",
+      "directSource": "https://www.cia.gov/readingroom/document/0000037954",
+      "simulationAccess": "CONFIDENTIAL",
+      "sourceClassification": "Unclassified"
+    },
+    {
+      "id": "martial-law-kuklinski",
+      "title": "Preparing for Martial Law — Ryszard Kuklinski",
+      "topics": [
+        "poland",
+        "solidarity",
+        "martial law",
+        "warsaw pact",
+        "kuklinski",
+        "cold war"
+      ],
+      "type": "historical publication",
+      "description": "CIA historical publication based on reporting by Polish General Staff officer Ryszard Kuklinski during the 1980–1981 Polish crisis.",
+      "source": "https://www.cia.gov/resources/publications/preparing-for-martial-law-through-the-eyes-of-col-ryszard-kuklinski/",
+      "sourceNote": "CIA publication describing reporting on the Polish crisis and preparations for martial law from July 1980 through December 1981.",
+      "directSource": "https://www.cia.gov/resources/publications/preparing-for-martial-law-through-the-eyes-of-col-ryszard-kuklinski/",
+      "simulationAccess": "TOP SECRET"
+    },
+    {
+      "id": "reagan-end-cold-war",
+      "title": "Ronald Reagan — Intelligence and the End of the Cold War",
+      "topics": [
+        "reagan",
+        "cold war",
+        "soviet union",
+        "intelligence history",
+        "presidential intelligence",
+        "1980s"
+      ],
+      "type": "historical publication",
+      "description": "CIA historical study examining intelligence and the end-of-Cold-War period during the Reagan administration.",
+      "source": "https://www.cia.gov/resources/publications/ronald-reagan-intelligence-and-the-end-of-the-cold-war/",
+      "sourceNote": "CIA historical publication with linked declassified Reagan FOIA documents.",
+      "directSource": "https://www.cia.gov/resources/publications/ronald-reagan-intelligence-and-the-end-of-the-cold-war/",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "nixon-arab-israeli-1973",
+      "title": "President Nixon and the 1973 Arab-Israeli War",
+      "topics": [
+        "nixon",
+        "1973",
+        "arab-israeli war",
+        "yom kippur war",
+        "intelligence analysis",
+        "warning"
+      ],
+      "type": "historical publication",
+      "description": "CIA historical collection examining U.S. intelligence performance before and during the October 1973 Arab-Israeli War.",
+      "source": "https://www.cia.gov/resources/publications/president-nixon-and-the-role-of-intelligence-in-the-1973-arab-israeli-war/",
+      "sourceNote": "CIA publication with declassified FOIA documents and a historical postmortem of intelligence performance.",
+      "directSource": "https://www.cia.gov/resources/publications/president-nixon-and-the-role-of-intelligence-in-the-1973-arab-israeli-war/",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "camp-david-intelligence",
+      "title": "Intelligence and the Camp David Accords",
+      "topics": [
+        "camp david",
+        "carter",
+        "egypt",
+        "israel",
+        "middle east",
+        "diplomatic intelligence",
+        "1977-1979"
+      ],
+      "type": "historical publication",
+      "description": "More than 250 previously classified documents covering intelligence support to the Carter administration's diplomacy from January 1977 through March 1979.",
+      "source": "https://www.cia.gov/resources/publications/intelligence-and-the-camp-david-accords/",
+      "sourceNote": "CIA publication: more than 250 documents totaling over 1,400 pages, including about 150 first released in that collection.",
+      "directSource": "https://www.cia.gov/resources/publications/intelligence-and-the-camp-david-accords/",
       "simulationAccess": "SECRET"
     }
   ],
