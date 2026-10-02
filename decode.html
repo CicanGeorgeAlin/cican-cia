@@ -17,7 +17,7 @@ html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#000;color:
 #label{font-size:9px;letter-spacing:4px;opacity:.35;margin-bottom:11px}
 #topic{font-size:clamp(24px,6vw,42px);line-height:1.1;letter-spacing:1px}
 #brief{margin:14px auto 0;max-width:600px;font-size:11px;line-height:1.6;color:rgba(255,255,255,.45)}
-#hint{margin-top:15px;font-size:10px;letter-spacing:2px;color:rgba(255,255,255,.32)}
+#hint{margin-top:15px;font-size:10px;letter-spacing:2px;color:rgba(255,255,255,.32)}#xp{margin-top:10px;font-size:8px;letter-spacing:2px;color:rgba(255,255,255,.22)}
 #record{position:fixed;left:50%;bottom:12%;transform:translateX(-50%) scale(.94);width:min(88vw,520px);opacity:0;pointer-events:none;border:1px solid rgba(255,255,255,.35);background:#080808;color:#fff;padding:18px;border-radius:12px;text-align:left;transition:.25s;z-index:25}
 #record.ready{opacity:1;pointer-events:auto;transform:translateX(-50%) scale(1)}
 #record .level{font-size:9px;letter-spacing:3px;opacity:.45}
@@ -44,7 +44,7 @@ html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#000;color:
   <div id="label">ACCESS PATH</div>
   <div id="topic"></div>
   <div id="brief"></div>
-  <div id="hint">Find the way in.</div>
+  <div id="hint">Find the way in.</div><div id="xp" aria-live="polite">XP 0 · DISCOVERIES 0</div>
 </div>
 <div id="record">
   <div class="level" id="recordLevel">ACCESS GRANTED</div>
@@ -95,14 +95,28 @@ async function loadCatalog(){
 }
 loadCatalog();
 const accessTrail=["RECRUIT","CONFIDENTIAL","SECRET","TOP SECRET","SCI","SI","TK","GAMMA","NEED-TO-KNOW"];
+const PROFILE_KEY="cicanCiaProfile";
+let profile=JSON.parse(localStorage.getItem(PROFILE_KEY)||'{"xp":0,"discoveries":0,"records":0,"verified":0,"lessons":0}');
 let stage=Math.min(Number(localStorage.getItem("cicanCiaStage")||0),ranks.length-1);
+function saveProfile(){localStorage.setItem(PROFILE_KEY,JSON.stringify(profile))}
+function award(kind,amount,label){
+ profile.xp+=amount;
+ if(kind==="discovery")profile.discoveries++;
+ if(kind==="record")profile.records++;
+ if(kind==="verified")profile.verified++;
+ if(kind==="lesson")profile.lessons++;
+ saveProfile();renderXP();
+ document.getElementById("hint").textContent=label+"  +"+amount+" XP";
+}
+function renderXP(){document.getElementById("xp").textContent="XP "+profile.xp+" · DISCOVERIES "+profile.discoveries+" · RECORDS "+profile.records}
+
 document.getElementById("topic").textContent=topic.toUpperCase();
 document.getElementById("brief").textContent=record.text+" "+ranks[stage].note;
 function renderRank(){
  document.getElementById("rank").innerHTML=ranks[stage].name+"<br><span>"+ranks[stage].label+"</span>";
  document.getElementById("progress").firstElementChild.style.width=(stage/(ranks.length-1)*100)+"%";
 }
-renderRank();
+renderRank();renderXP();
 let ones=[],selected=null,growing=false,lastTap=0,lastTapped=null,readUnlocked=false;
 function dist(a,b){return Math.hypot(a.x-b.x,a.y-b.y)}
 function make(x,y,size=MIN_SIZE){const el=document.createElement("div");el.className="cican";document.body.appendChild(el);return{x,y,targetX:x,targetY:y,size,el}}
@@ -114,7 +128,7 @@ function merge(a,b){
  const fullA=a.size>=MAX_SIZE,fullB=b.size>=MAX_SIZE,x=(a.x+b.x)/2,y=(a.y+b.y)/2;
  a.el.remove();b.el.remove();ones=ones.filter(o=>o!==a&&o!==b);
  const n=spawn(x,y,Math.min(MAX_SIZE,Math.sqrt(a.size*a.size+b.size*b.size)));pulse(x,y);selected=n;
- if(fullA&&fullB){n.size=MAX_SIZE;face(n);unlockRead()}
+ if(fullA&&fullB){n.size=MAX_SIZE;face(n);award("discovery",50,"ACCESS DISCOVERY");unlockRead()}
 }
 function unlockRead(){
  if(readUnlocked)return;readUnlocked=true;
@@ -127,7 +141,7 @@ function unlockRead(){
  document.getElementById("record").classList.add("ready");
 }
 document.getElementById("advance").onclick=()=>{
- if(stage<ranks.length-1){stage++;localStorage.setItem("cicanCiaStage",stage)}
+ if(stage<ranks.length-1){stage++;localStorage.setItem("cicanCiaStage",stage);award("lesson",100,"NEW ACCESS LAYER")}else{award("verified",150,"FINAL GATE VERIFIED")}
  document.getElementById("record").classList.remove("ready");
  document.getElementById("hint").textContent=stage===ranks.length-1?"The final compartment is open.":"Access path advanced. Find the way in again.";
  renderRank();reset();
