@@ -1,5 +1,5 @@
 {
-  "version": "1.7",
+  "version": "1.8",
   "sourcePolicy": "public-declassified-only",
   "primarySource": "https://www.cia.gov/readingroom/",
   "records": [
@@ -1039,6 +1039,344 @@
       "source": "https://www.cia.gov/resources/csi/books-monographs/predicting-the-soviet-invasion-of-afghanistan/",
       "sourceNote": "Listed by CIA among its Cold War intelligence and intelligence-analysis tradecraft monographs.",
       "directSource": "https://www.cia.gov/resources/csi/books-monographs/predicting-the-soviet-invasion-of-afghanistan/",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "vietnam-policymakers",
+      "title": "CIA and the Vietnam Policymakers: Three Episodes, 1962–68",
+      "topics": [
+        "vietnam",
+        "policymakers",
+        "analysis",
+        "intelligence estimates",
+        "1962-1968"
+      ],
+      "type": "historical monograph",
+      "description": "CIA historical study of intelligence assessments on Vietnam during three episodes between 1962 and 1968 and their reception by senior policymakers.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/cia-and-the-vietnam-policymakers/",
+      "sourceNote": "CIA Center for the Study of Intelligence monograph; complete book is 142 pages.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/cia-and-the-vietnam-policymakers/",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "office-strategic-research",
+      "title": "History of CIA's Office of Strategic Research, 1967–81",
+      "topics": [
+        "office of strategic research",
+        "military analysis",
+        "soviet bloc",
+        "china",
+        "arms control",
+        "strategic intelligence"
+      ],
+      "type": "historical monograph",
+      "description": "History of the CIA Office of Strategic Research and its role in independent strategic military analysis.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/the-history-of-cias-office-of-strategic-research-1967-81/",
+      "sourceNote": "CIA History Staff monograph; complete book is 220 pages.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/the-history-of-cias-office-of-strategic-research-1967-81/",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "unheeded-warning-yugoslavia",
+      "title": "Unheeded Warning of War — Yugoslavia 1990",
+      "topics": [
+        "yugoslavia",
+        "1990",
+        "national intelligence estimate",
+        "warning",
+        "policymakers",
+        "intelligence failure"
+      ],
+      "type": "historical study",
+      "description": "CIA-sponsored study of the 1990 National Intelligence Estimate on Yugoslavia and why its warning did not translate into policy response.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/cia-support-to-policymakers-unheeded-warning-of-war/",
+      "sourceNote": "CIA Center for the Study of Intelligence publication; wholly unclassified study based on public and unclassified sources.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/cia-support-to-policymakers-unheeded-warning-of-war/",
+      "simulationAccess": "CONFIDENTIAL"
+    },
+    {
+      "id": "voices-saigon-1975",
+      "title": "Voices from the Station — Saigon Evacuation, April 1975",
+      "topics": [
+        "saigon",
+        "1975",
+        "evacuation",
+        "vietnam",
+        "war",
+        "crisis response"
+      ],
+      "type": "historical monograph",
+      "description": "CIA historical account of the evacuation of the U.S. Embassy in Saigon in April 1975.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/voices-from-the-station-the-evacuation-of-the-us-embassy-in-saigon-in-april-1975/",
+      "sourceNote": "CIA Center for the Study of Intelligence historical publication.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/voices-from-the-station-the-evacuation-of-the-us-embassy-in-saigon-in-april-1975/",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "first-callers-pdb",
+      "title": "The First Callers — President's Daily Brief Across Three Administrations",
+      "topics": [
+        "presidents daily brief",
+        "pdb",
+        "bush",
+        "clinton",
+        "intelligence policy",
+        "president"
+      ],
+      "type": "historical study",
+      "description": "CIA-sponsored study examining the President's Daily Brief as document and process across the George H.W. Bush, Clinton, and George W. Bush administrations.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/csi-intelligence-and-policy-monographs/",
+      "sourceNote": "CIA Center for the Study of Intelligence monograph published in 2013; wholly unclassified.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/csi-intelligence-and-policy-monographs/",
+      "simulationAccess": "CONFIDENTIAL"
+    },
+    {
+      "id": "iran-nie-2007",
+      "title": "The 2007 NIE on Iran's Nuclear Intentions and Capabilities",
+      "topics": [
+        "iran",
+        "nuclear",
+        "national intelligence estimate",
+        "2007",
+        "policymakers",
+        "analysis"
+      ],
+      "type": "historical study",
+      "description": "CIA-sponsored case study of the 2007 National Intelligence Estimate on Iran's nuclear intentions and its effect on intelligence-policy relations.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/cia-support-to-policymakers-the-2007-nie-on-irans-nuclear-intentions-and-capabilities/",
+      "sourceNote": "CIA publication based on unclassified documents, oral histories, and policymaker interviews; made public as a wholly unclassified product.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/cia-support-to-policymakers-the-2007-nie-on-irans-nuclear-intentions-and-capabilities/",
+      "simulationAccess": "CONFIDENTIAL"
+    },
+    {
+      "id": "tradecraft-primer",
+      "title": "A Tradecraft Primer — Structured Analytic Techniques",
+      "topics": [
+        "tradecraft",
+        "structured analysis",
+        "analysis methods",
+        "analytic techniques",
+        "intelligence analysis"
+      ],
+      "type": "training monograph",
+      "description": "Public CIA Center for the Study of Intelligence primer describing structured analytic techniques for improving intelligence analysis.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/a-tradecraft-primer/",
+      "sourceNote": "CIA/Directorate of Intelligence analyst primer; public educational source.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/a-tradecraft-primer/",
+      "simulationAccess": "CONFIDENTIAL"
+    },
+    {
+      "id": "thinking-writing-analysis",
+      "title": "Thinking and Writing — Cognitive Science and Intelligence Analysis",
+      "topics": [
+        "cognitive science",
+        "writing",
+        "analysis",
+        "judgment",
+        "analytic tradecraft"
+      ],
+      "type": "training monograph",
+      "description": "CIA Center for the Study of Intelligence monograph connecting cognitive science with intelligence analysis and writing.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/thinking-and-writing",
+      "sourceNote": "Robert S. Sinclair; 2010 second edition; complete PDF is 41 pages.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/thinking-and-writing",
+      "simulationAccess": "CONFIDENTIAL"
+    },
+    {
+      "id": "polish-crisis-1980-1981",
+      "title": "U.S. Intelligence and the Polish Crisis, 1980–1981",
+      "topics": [
+        "poland",
+        "solidarity",
+        "martial law",
+        "intelligence warning",
+        "reagan",
+        "soviet bloc"
+      ],
+      "type": "historical monograph",
+      "description": "CIA historical study of U.S. intelligence during the Polish crisis and the imposition of martial law in December 1981.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/us-intelligence-and-the-polish-crisis-1980-1981-2/",
+      "sourceNote": "CIA Center for the Study of Intelligence monograph; complete searchable volume is 226 pages.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/us-intelligence-and-the-polish-crisis-1980-1981-2/",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "berlin-intelligence-war-1946-1961",
+      "title": "The Intelligence War in Berlin, 1946–1961",
+      "topics": [
+        "berlin",
+        "cold war",
+        "airlift",
+        "berlin tunnel",
+        "berlin wall",
+        "espionage"
+      ],
+      "type": "documentary collection",
+      "description": "More than 90 declassified documents covering intelligence activity in Berlin from the postwar period through the construction of the Berlin Wall.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/on-the-front-lines-of-the-cold-war-documents-on-the-intelligence-war-in-berlin-1946-to-1961/",
+      "sourceNote": "CIA History Staff collection divided into seven parts, including the Berlin Tunnel, Berlin Crisis, and Wall.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/on-the-front-lines-of-the-cold-war-documents-on-the-intelligence-war-in-berlin-1946-to-1961/",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "venona",
+      "title": "VENONA — Soviet Espionage and the American Response, 1939–1957",
+      "topics": [
+        "venona",
+        "soviet espionage",
+        "cryptanalysis",
+        "counterintelligence",
+        "world war ii",
+        "cold war"
+      ],
+      "type": "documentary collection",
+      "description": "Joint NSA-CIA public collection of selected VENONA documents and messages concerning Soviet espionage and the U.S. response.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/venona/",
+      "sourceNote": "Joint NSA-CIA product; complete public collection is 433 pages and includes selected translated Soviet messages and U.S. response material.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/venona/",
+      "simulationAccess": "TOP SECRET"
+    },
+    {
+      "id": "u2-program-history",
+      "title": "The CIA and the U-2 Program, 1954–1974",
+      "topics": [
+        "u2",
+        "reconnaissance",
+        "a12",
+        "oxcart",
+        "imagery",
+        "technology"
+      ],
+      "type": "historical monograph",
+      "description": "Comprehensive CIA History Staff history of the U-2 and A-12 OXCART manned overhead reconnaissance programs.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/the-cia-and-the-u-2-program-1954-1974/",
+      "sourceNote": "CIA History Staff monograph; complete book is 272 pages.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/the-cia-and-the-u-2-program-1954-1974/",
+      "simulationAccess": "TOP SECRET"
+    },
+    {
+      "id": "psychology-intelligence-analysis",
+      "title": "Psychology of Intelligence Analysis",
+      "topics": [
+        "psychology",
+        "cognitive bias",
+        "analysis",
+        "judgment",
+        "information",
+        "analytic tradecraft"
+      ],
+      "type": "training monograph",
+      "description": "CIA Center for the Study of Intelligence work on cognitive psychology and the challenges of making judgments from incomplete and ambiguous information.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/psychology-of-intelligence-analysis-2/",
+      "sourceNote": "Richards J. Heuer Jr.; complete public edition is 214 pages.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/psychology-of-intelligence-analysis-2/",
+      "simulationAccess": "CONFIDENTIAL"
+    },
+    {
+      "id": "sherman-kent-estimates",
+      "title": "Sherman Kent and the Board of National Estimates",
+      "topics": [
+        "sherman kent",
+        "national intelligence estimates",
+        "estimates",
+        "analysis",
+        "intelligence profession"
+      ],
+      "type": "documentary anthology",
+      "description": "Declassified writings by Sherman Kent concerning the Board of National Estimates and the development of National Intelligence Estimates.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/sherman-kent-and-the-board-of-national-estimates-collected-essays-2/",
+      "sourceNote": "CIA anthology; complete public volume is 183 pages.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/sherman-kent-and-the-board-of-national-estimates-collected-essays-2/",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "dci-leadership",
+      "title": "Directors of Central Intelligence as Leaders, 1946–2005",
+      "topics": [
+        "directors of central intelligence",
+        "leadership",
+        "intelligence community",
+        "organization",
+        "dci",
+        "dni"
+      ],
+      "type": "historical monograph",
+      "description": "Historical study of how Directors of Central Intelligence approached their role coordinating the broader U.S. Intelligence Community.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/directors-of-central-intelligence-as-leaders-of-the-us-intelligence-community/",
+      "sourceNote": "CIA Center for the Study of Intelligence study; complete book is 356 pages.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/directors-of-central-intelligence-as-leaders-of-the-us-intelligence-community/",
+      "simulationAccess": "CONFIDENTIAL"
+    },
+    {
+      "id": "ic-policymaker-integration",
+      "title": "Intelligence Community and Policymaker Integration",
+      "topics": [
+        "intelligence community",
+        "policymakers",
+        "warning cycle",
+        "collection",
+        "analysis",
+        "classification"
+      ],
+      "type": "historical anthology",
+      "description": "CIA Center for the Study of Intelligence anthology on recurring issues in the relationship between intelligence producers and policymakers.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/intelligence-community-and-policymaker-integration/",
+      "sourceNote": "Anthology of Studies in Intelligence articles spanning roughly 50 years.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/intelligence-community-and-policymaker-integration/",
+      "simulationAccess": "CONFIDENTIAL"
+    },
+    {
+      "id": "agency-hill-congress",
+      "title": "The Agency and the Hill — CIA's Relationship With Congress",
+      "topics": [
+        "congress",
+        "oversight",
+        "cia",
+        "law",
+        "dcI",
+        "intelligence community"
+      ],
+      "type": "historical monograph",
+      "description": "Historical study of CIA's relationship with Congress from the Agency's creation through 2004.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/the-agency-and-the-hill/",
+      "sourceNote": "L. Britt Snider; complete book is 408 pages.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/the-agency-and-the-hill/",
+      "simulationAccess": "CONFIDENTIAL"
+    },
+    {
+      "id": "intelligence-community-reform",
+      "title": "U.S. Intelligence Community Reform Studies Since 1947",
+      "topics": [
+        "intelligence reform",
+        "oversight",
+        "reorganization",
+        "1947",
+        "9/11 commission",
+        "policy"
+      ],
+      "type": "historical study",
+      "description": "Historical review of major official studies proposing reforms to the U.S. Intelligence Community since 1947.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/us-intelligence-community-reform-studies-since-1947/",
+      "sourceNote": "CIA study examining 14 significant official intelligence reform studies.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/us-intelligence-community-reform-studies-since-1947/",
+      "simulationAccess": "CONFIDENTIAL"
+    },
+    {
+      "id": "cold-war-conundrum-1983",
+      "title": "A Cold War Conundrum — The 1983 Soviet War Scare",
+      "topics": [
+        "1983",
+        "soviet war scare",
+        "ryan",
+        "nuclear warning",
+        "cold war",
+        "strategic warning"
+      ],
+      "type": "historical monograph",
+      "description": "CIA historical study of the Soviet war scare of 1983 and the RYAN early-warning effort.",
+      "source": "https://www.cia.gov/resources/csi/books-monographs/a-cold-war-conundrum/",
+      "sourceNote": "Benjamin B. Fischer; complete public monograph is 41 pages.",
+      "directSource": "https://www.cia.gov/resources/csi/books-monographs/a-cold-war-conundrum/",
       "simulationAccess": "SECRET"
     }
   ],
