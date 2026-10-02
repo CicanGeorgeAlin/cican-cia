@@ -79,11 +79,25 @@ const records=[
 ];
 const topic=(new URLSearchParams(location.search).get("topic")||"THE READING ROOM").trim();
 const lower=topic.toLowerCase();
-const record=records.find(r=>r.keys.some(k=>lower.includes(k)))||records[3];
+const localRecords=records;
+let record=localRecords.find(r=>r.keys.some(k=>lower.includes(k)))||localRecords[3];
+async function loadCatalog(){
+ try{
+  const res=await fetch("records.json",{cache:"no-store"});
+  if(!res.ok)throw new Error("catalog");
+  const data=await res.json();
+  const match=data.records.find(r=>r.topics.some(k=>lower.includes(k)));
+  if(match){
+   record={keys:match.topics,title:match.title,text:match.description,url:match.source,access:match.access};
+   document.getElementById("brief").textContent=match.sourceNote+" Access path: "+match.access+" simulation.";
+  }
+ }catch(e){}
+}
+loadCatalog();
 const accessTrail=["RECRUIT","CONFIDENTIAL","SECRET","TOP SECRET","SCI","SI","TK","GAMMA","NEED-TO-KNOW"];
 let stage=Math.min(Number(localStorage.getItem("cicanCiaStage")||0),ranks.length-1);
 document.getElementById("topic").textContent=topic.toUpperCase();
-document.getElementById("brief").textContent=ranks[stage].note;
+document.getElementById("brief").textContent=record.text+" "+ranks[stage].note;
 function renderRank(){
  document.getElementById("rank").innerHTML=ranks[stage].name+"<br><span>"+ranks[stage].label+"</span>";
  document.getElementById("progress").firstElementChild.style.width=(stage/(ranks.length-1)*100)+"%";
