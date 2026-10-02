@@ -1,5 +1,5 @@
 {
-  "version": "1.2",
+  "version": "1.3",
   "sourcePolicy": "public-declassified-only",
   "primarySource": "https://www.cia.gov/readingroom/",
   "records": [
@@ -479,6 +479,97 @@
       "source": "https://www.cia.gov/resources/publications/the-creation-of-the-intelligence-community/",
       "sourceNote": "CIA historical publication containing previously declassified and released founding documents.",
       "directSource": "https://www.cia.gov/resources/publications/the-creation-of-the-intelligence-community/"
+    },
+    {
+      "id": "guatemala-1954",
+      "title": "Guatemala — 1954 Coup Collection",
+      "topics": [
+        "guatemala",
+        "1954",
+        "cold war",
+        "covert action",
+        "central america",
+        "jacobo arbenz"
+      ],
+      "type": "collection",
+      "description": "Public CIA historical collection documenting CIA involvement in the 1954 coup in Guatemala, including operational records and later historical analysis.",
+      "source": "https://www.cia.gov/readingroom/collection/guatemala",
+      "sourceNote": "CIA Reading Room: 5,120 documents and more than 14,000 pages, covering planning, execution, outcome, and later CIA historical analysis.",
+      "directSource": "https://www.cia.gov/readingroom/collection/guatemala",
+      "simulationAccess": "TOP SECRET"
+    },
+    {
+      "id": "penkovsky",
+      "title": "Lt. Col. Oleg Penkovsky — Western Spy in Soviet GRU",
+      "topics": [
+        "oleg penkovsky",
+        "soviet union",
+        "gru",
+        "cold war",
+        "espionage",
+        "human intelligence"
+      ],
+      "type": "collection",
+      "description": "Public CIA records concerning Oleg Penkovsky, his contacts with Western intelligence, and related Soviet military-intelligence reporting.",
+      "source": "https://www.cia.gov/readingroom/document/0000012392",
+      "sourceNote": "CIA FOIA documents in the collection 'Lt. Col. Oleg Penkovsky: Western Spy in Soviet GRU'; the linked record is a 40-page 1961 London meeting document.",
+      "directSource": "https://www.cia.gov/readingroom/document/0000012392",
+      "simulationAccess": "TOP SECRET"
+    },
+    {
+      "id": "original-wizards-langley",
+      "title": "The Original Wizards of Langley",
+      "topics": [
+        "scientific intelligence",
+        "nuclear",
+        "biological warfare",
+        "guided missiles",
+        "cold war",
+        "science and technology"
+      ],
+      "type": "historical collection",
+      "description": "CIA historical collection centered on the Office of Scientific Intelligence and its contributions to science and technology intelligence during the Cold War.",
+      "source": "https://www.cia.gov/resources/publications/office-of-scientific-intelligence-the-original-wizards-of-langley/",
+      "sourceNote": "CIA publication page states the collection includes a three-volume OSI history, selected National Intelligence Estimates, intelligence reports, Studies in Intelligence articles, and early OSI historical documents.",
+      "directSource": "https://www.cia.gov/readingroom/document/5077050b993247d4d82b6a27",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "jprs-east-europe",
+      "title": "JPRS — East Europe Report: Scientific Affairs",
+      "topics": [
+        "jprs",
+        "east europe",
+        "scientific affairs",
+        "foreign broadcast information",
+        "soviet bloc",
+        "open-source intelligence"
+      ],
+      "type": "document",
+      "description": "A declassified JPRS report illustrating how translated and summarized foreign-language publications were processed into intelligence reporting.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp82-00850r000500070045-0",
+      "sourceNote": "CIA FOIA/CREST document JPRS L/10599, East Europe Report: Scientific Affairs, dated 18 June 1982; 13 pages; original classification marked Unclassified.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp82-00850r000500070045-0",
+      "simulationAccess": "CONFIDENTIAL",
+      "sourceClassification": "Unclassified"
+    },
+    {
+      "id": "general-cia-records",
+      "title": "General CIA Records",
+      "topics": [
+        "cia records",
+        "cold war",
+        "intelligence reporting",
+        "administration",
+        "operations",
+        "historical archive"
+      ],
+      "type": "collection",
+      "description": "A broad CIA Reading Room collection containing a large range of declassified historical records, useful for cross-record research and archival discovery.",
+      "source": "https://www.cia.gov/readingroom/collection/general-cia-records",
+      "sourceNote": "CIA Reading Room collection with a broad range of historical records and documents.",
+      "directSource": "https://www.cia.gov/readingroom/collection/general-cia-records",
+      "simulationAccess": "CONFIDENTIAL"
     }
   ],
   "schemaNote": "simulationAccess is a fictional CICAN gameplay gate. sourceClassification, when present, describes the historical classification marking reported by the public source. Neither field grants or represents real access."
