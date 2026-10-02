@@ -19,5 +19,5 @@ const grid=document.getElementById("grid");
 if(!verified.length){grid.innerHTML='<div class="empty">NO VERIFIED EVIDENCE YET.<br><br>Complete a field investigation to begin building your dossier.</div>'}else{
  verified.forEach(id=>{const c=cases[id];const el=document.createElement("article");el.className="card";el.innerHTML='<div class="code">'+c.code+' · VERIFIED</div><h2>'+c.title+'</h2><div class="meta">'+c.lesson+'</div><a href="'+c.source+'" target="_blank" rel="noopener">OPEN PUBLIC SOURCE →</a>';grid.appendChild(el)})
 }
-</script><div style="position:fixed;left:16px;bottom:16px;z-index:4;font-size:7px;letter-spacing:1px;color:rgba(255,255,255,.22)"><a href="legal.html" style="color:inherit">LEGAL &amp; SOURCE POLICY</a></div>
+</script><div style="position:fixed;left:16px;bottom:16px;z-index:4;font-size:7px;letter-spacing:1px;color:rgba(255,255,255,.22)"><a href="legal.html" style="color:inherit">LEGAL &amp; SOURCE POLICY</a> · <a href="privacy.html">PRIVACY &amp; STORAGE</a></div>
 </body></html>
