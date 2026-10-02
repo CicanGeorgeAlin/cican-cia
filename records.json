@@ -1,5 +1,5 @@
 {
-  "version": "1.5",
+  "version": "1.6",
   "sourcePolicy": "public-declassified-only",
   "primarySource": "https://www.cia.gov/readingroom/",
   "records": [
@@ -771,6 +771,129 @@
       "source": "https://www.cia.gov/resources/publications/intelligence-and-the-camp-david-accords/",
       "sourceNote": "CIA publication: more than 250 documents totaling over 1,400 pages, including about 150 first released in that collection.",
       "directSource": "https://www.cia.gov/resources/publications/intelligence-and-the-camp-david-accords/",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "family-jewels",
+      "title": "The Family Jewels",
+      "topics": [
+        "family jewels",
+        "oversight",
+        "1973",
+        "schlesinger",
+        "colby",
+        "cia history",
+        "congress"
+      ],
+      "type": "collection",
+      "description": "Publicly released CIA records compiled in 1973 after Director James Schlesinger directed employees to report activities they believed might conflict with the Agency charter.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA public history states that the 2007 release was a 700-page collection of Family Jewels documents.",
+      "directSource": "https://www.cia.gov/readingroom/docs/reflections.pdf",
+      "simulationAccess": "TOP SECRET"
+    },
+    {
+      "id": "nic-collection",
+      "title": "National Intelligence Council Collection",
+      "topics": [
+        "national intelligence council",
+        "nie",
+        "strategic intelligence",
+        "estimative intelligence",
+        "analysis",
+        "cold war"
+      ],
+      "type": "collection",
+      "description": "Public National Intelligence Council records including National Intelligence Estimates and related analytic products.",
+      "source": "https://www.cia.gov/readingroom/document/0000278486",
+      "sourceNote": "CIA FOIA record from the NIC Collection: Soviet Strategic Defenses (NIE 11-3-69), a 29-page 1969 National Intelligence Estimate.",
+      "directSource": "https://www.cia.gov/readingroom/document/0000278486",
+      "simulationAccess": "SECRET",
+      "sourceClassification": "Unclassified"
+    },
+    {
+      "id": "intelligence-policy-politics",
+      "title": "Intelligence, Policy, and Politics",
+      "topics": [
+        "intelligence policy",
+        "white house",
+        "congress",
+        "dcI",
+        "oversight",
+        "presidential history"
+      ],
+      "type": "collection",
+      "description": "Public historical records concerning relationships among the Director of Central Intelligence, the White House, and Congress.",
+      "source": "https://www.cia.gov/readingroom/document/5166d49399326091c6a6043c",
+      "sourceNote": "CIA FOIA record identified as part of the special collection Intelligence, Policy, and Politics: The DCI, the White House, and Congress.",
+      "directSource": "https://www.cia.gov/readingroom/document/5166d49399326091c6a6043c",
+      "simulationAccess": "CONFIDENTIAL"
+    },
+    {
+      "id": "stories-sacrifice-dedication",
+      "title": "Stories of Sacrifice and Dedication",
+      "topics": [
+        "cia history",
+        "service",
+        "officers",
+        "intelligence history",
+        "memorial"
+      ],
+      "type": "historical collection",
+      "description": "CIA historical material documenting stories of Agency personnel and service, useful for studying institutional history and organizational culture.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "Listed by CIA in its Electronic Reading Room Advanced Search Guide as a historical collection.",
+      "simulationAccess": "CONFIDENTIAL"
+    },
+    {
+      "id": "caeser-polo-esau",
+      "title": "The CAESER, POLO, and ESAU Papers",
+      "topics": [
+        "caeser",
+        "polo",
+        "esau",
+        "soviet union",
+        "china",
+        "cold war",
+        "strategic intelligence"
+      ],
+      "type": "collection",
+      "description": "Special CIA historical collection of declassified intelligence papers associated with CAESER, POLO, and ESAU research programs.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "Listed by CIA's Electronic Reading Room Advanced Search Guide as a special collection.",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "soviet-warsaw-latest",
+      "title": "Soviet and Warsaw Pact Military Journals — Latest",
+      "topics": [
+        "soviet union",
+        "warsaw pact",
+        "military journals",
+        "cold war",
+        "military analysis"
+      ],
+      "type": "collection",
+      "description": "A later tranche of Soviet and Warsaw Pact military journal material listed separately by CIA in its Electronic Reading Room.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA's Advanced Search Guide lists a separate 'Soviet and Warsaw Pact Military Journals (Latest)' collection.",
+      "simulationAccess": "SECRET"
+    },
+    {
+      "id": "reagan-collection",
+      "title": "Reagan Collection",
+      "topics": [
+        "reagan",
+        "president",
+        "cold war",
+        "soviet union",
+        "intelligence estimates",
+        "1980s"
+      ],
+      "type": "collection",
+      "description": "Public CIA Reading Room records associated with the Reagan Collection and intelligence during the 1980s.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA's Electronic Reading Room Advanced Search Guide lists the Reagan Collection as a historical collection.",
       "simulationAccess": "SECRET"
     }
   ],
