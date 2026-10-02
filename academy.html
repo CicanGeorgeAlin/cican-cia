@@ -53,6 +53,6 @@ footer{text-align:center;margin-top:30px;color:rgba(255,255,255,.22);font-size:8
 fetch("records.json").then(r=>r.json()).then(data=>{
  const pool=data.records.filter(r=>!localStorage.getItem("cicanCase_"+r.id)).slice(0,6);
  document.getElementById("catalog").innerHTML=pool.map(r=>'<div class="mission"><b>'+r.title+'</b><p>'+(r.description||"Public historical record.")+'</p><a href="investigation.html?id='+encodeURIComponent(r.id)+'">OPEN RESEARCH NODE →</a></div>').join("");
-}).catch(()=>{document.getElementById("catalog").innerHTML='<div class="mission"><b>CATALOG</b><p>The public record index could not be loaded.</p></div>';});
+}).catch(()=>{document.getElementById("catalog").innerHTML='<div class="mission"><b>CATALOG UNAVAILABLE</b><p>The public record index could not be loaded right now.</p><a href="network.html">RETRY RESEARCH NETWORK →</a></div>';});
 </script><div style="position:fixed;left:16px;bottom:16px;z-index:4;font-size:7px;letter-spacing:1px;color:rgba(255,255,255,.22)"><a href="legal.html" style="color:inherit">LEGAL &amp; SOURCE POLICY</a> · <a href="privacy.html">PRIVACY &amp; STORAGE</a></div>
 </body></html>
