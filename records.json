@@ -1,5 +1,5 @@
 {
-  "version": "1.12",
+  "version": "1.13",
   "sourcePolicy": "public-declassified-only",
   "primarySource": "https://www.cia.gov/readingroom/",
   "records": [
@@ -1587,6 +1587,82 @@
       "simulationAccess": "CONFIDENTIAL",
       "sourceClassification": "C",
       "publicAttachment": "CIA-RDP85T00875R001700040059-2.pdf"
+    },
+    {
+      "id": "china-selected-economic-reforms-1983",
+      "title": "China: New Attention to Selected Economic Reforms",
+      "topics": [
+        "china",
+        "economic reform",
+        "beijing",
+        "economy",
+        "reform"
+      ],
+      "type": "document",
+      "description": "CIA public document concerning renewed attention to selected economic reforms in China.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp85t00287r000400730001-9",
+      "sourceNote": "CIA FOIA public document page; original classification marked Confidential; 8 pages; publication date listed as 1983.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp85t00287r000400730001-9",
+      "simulationAccess": "CONFIDENTIAL",
+      "sourceClassification": "Confidential",
+      "publicAttachment": "CIA-RDP85T00287R000400730001-9.pdf"
+    },
+    {
+      "id": "china-year-review-1985",
+      "title": "China: The Year in Review — 1985",
+      "topics": [
+        "china",
+        "beijing",
+        "economy",
+        "politics",
+        "foreign policy"
+      ],
+      "type": "document",
+      "description": "CIA public document reviewing developments in China during 1985.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp85t01058r000201470001-2",
+      "sourceNote": "CIA FOIA public document page; original classification marked Secret; 7 pages; publication date listed as 1985.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp85t01058r000201470001-2",
+      "simulationAccess": "SECRET",
+      "sourceClassification": "Secret",
+      "publicAttachment": "CIA-RDP85T01058R000201470001-2.pdf"
+    },
+    {
+      "id": "china-sino-us-relations-tokyo-1983",
+      "title": "China and Sino-US Relations: The View from Tokyo",
+      "topics": [
+        "china",
+        "sino-us relations",
+        "japan",
+        "tokyo",
+        "foreign policy"
+      ],
+      "type": "document",
+      "description": "CIA public document examining China and Sino-US relations from the perspective identified in its title.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp85m00364r002404760024-6",
+      "sourceNote": "CIA FOIA public document page; original classification marked Secret; 3 pages; publication date listed as 1983.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp85m00364r002404760024-6",
+      "simulationAccess": "SECRET",
+      "sourceClassification": "Secret",
+      "publicAttachment": "CIA-RDP85M00364R002404760024-6.pdf"
+    },
+    {
+      "id": "developments-indochina-1973-jan-25",
+      "title": "Developments in Indochina — 25 January 1973",
+      "topics": [
+        "indochina",
+        "vietnam",
+        "laos",
+        "cambodia",
+        "1973"
+      ],
+      "type": "document",
+      "description": "CIA public document reporting developments in Indochina on 25 January 1973.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp85t00875r001000090021-5",
+      "sourceNote": "CIA FOIA public document page; original classification marked Top Secret; 18 pages; publication date listed as 1973.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp85t00875r001000090021-5",
+      "simulationAccess": "TOP SECRET",
+      "sourceClassification": "Top Secret",
+      "publicAttachment": "CIA-RDP85T00875R001000090021-5.pdf"
     }
   ],
   "schemaNote": "simulationAccess is a fictional CICAN gameplay gate. sourceClassification, when present, describes the historical classification marking reported by the public source. Neither field grants or represents real access."
