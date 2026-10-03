@@ -1,5 +1,5 @@
 {
-  "version": "1.11",
+  "version": "1.12",
   "sourcePolicy": "public-declassified-only",
   "primarySource": "https://www.cia.gov/readingroom/",
   "records": [
@@ -1515,6 +1515,78 @@
       "simulationAccess": "TOP SECRET",
       "sourceClassification": "T",
       "publicAttachment": "CIA-RDP82M00097R000800160004-3.pdf"
+    },
+    {
+      "id": "china-year-review-1987",
+      "title": "China: The Year in Review",
+      "topics": [
+        "china",
+        "cold war",
+        "analysis",
+        "politics"
+      ],
+      "type": "document",
+      "description": "A 7-page 1987 CREST report reviewing political and economic developments in China.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA FOIA document page: CHINA: THE YEAR IN REVIEW, publication date March 31, 1987.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp90t00114r000200130001-2",
+      "simulationAccess": "SECRET",
+      "sourceClassification": "S",
+      "publicAttachment": "CIA-RDP90T00114R000200130001-2.pdf"
+    },
+    {
+      "id": "us-soviet-relations-brezhnev",
+      "title": "US-Soviet Relations and the Brezhnev Succession",
+      "topics": [
+        "soviet union",
+        "cold war",
+        "analysis",
+        "president"
+      ],
+      "type": "document",
+      "description": "A 7-page 1982 CREST report examining US-Soviet relations around the Brezhnev succession.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA FOIA document page: US-SOVIET RELATIONS AND THE BREZHNEV SUCCESSION, publication date August 31, 1982.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp84b00049r001403460014-4",
+      "simulationAccess": "CONFIDENTIAL",
+      "sourceClassification": "C",
+      "publicAttachment": "CIA-RDP84B00049R001403460014-4.pdf"
+    },
+    {
+      "id": "china-new-weapons-conventional",
+      "title": "China: New Weapons for the Conventional Forces",
+      "topics": [
+        "china",
+        "military",
+        "cold war",
+        "analysis"
+      ],
+      "type": "document",
+      "description": "A 25-page 1983 CREST report on China's conventional military modernization and weapons development.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA FOIA document page: CHINA: NEW WEAPONS FOR THE CONVENTIONAL FORCES, publication date September 23, 1983.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp85t00287r000401510001-2",
+      "simulationAccess": "SECRET",
+      "sourceClassification": "S",
+      "publicAttachment": "CIA-RDP85T00287R000401510001-2.pdf"
+    },
+    {
+      "id": "china-progress-computers-1972",
+      "title": "China: Progress in Computers",
+      "topics": [
+        "china",
+        "technology",
+        "analysis",
+        "cold war"
+      ],
+      "type": "document",
+      "description": "A 14-page 1972 intelligence memorandum on China's computer industry and technological development.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA FOIA document page: INTELLIGENCE MEMORANDUM CHINA: PROGRESS IN COMPUTERS, publication date December 1, 1972.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp85t00875r001700040059-2",
+      "simulationAccess": "CONFIDENTIAL",
+      "sourceClassification": "C",
+      "publicAttachment": "CIA-RDP85T00875R001700040059-2.pdf"
     }
   ],
   "schemaNote": "simulationAccess is a fictional CICAN gameplay gate. sourceClassification, when present, describes the historical classification marking reported by the public source. Neither field grants or represents real access."
