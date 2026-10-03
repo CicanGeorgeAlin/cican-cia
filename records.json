@@ -1,5 +1,5 @@
 {
-  "version": "1.15",
+  "version": "1.16",
   "sourcePolicy": "public-declassified-only",
   "primarySource": "https://www.cia.gov/readingroom/",
   "records": [
@@ -1818,6 +1818,86 @@
       "simulationAccess": "CONFIDENTIAL",
       "sourceClassification": "Unclassified",
       "publicAttachment": "CENTRAL INTELLIGENCE BULL[15747529].pdf"
+    },
+    {
+      "id": "central-intelligence-bulletin-1967-may-18",
+      "title": "Central Intelligence Bulletin — 18 May 1967",
+      "topics": [
+        "intelligence bulletin",
+        "cold war",
+        "china",
+        "hong kong",
+        "gibraltar",
+        "venezuela"
+      ],
+      "type": "document",
+      "description": "A 11-page 1967 Central Intelligence Bulletin covering developments including Communist activity in Hong Kong, the Gibraltar dispute, and Venezuela-Cuba policy.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp79t00975a009900160001-5",
+      "sourceNote": "CIA FOIA document page: CENTRAL INTELLIGENCE BULLETIN, publication date May 18, 1967.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp79t00975a009900160001-5",
+      "simulationAccess": "TOP SECRET",
+      "sourceClassification": "T",
+      "publicAttachment": "CIA-RDP79T00975A009900160001-5.pdf"
+    },
+    {
+      "id": "central-intelligence-bulletin-1972-aug-26",
+      "title": "Central Intelligence Bulletin — 26 August 1972",
+      "topics": [
+        "intelligence bulletin",
+        "cold war",
+        "china",
+        "taiwan",
+        "soviet union",
+        "president"
+      ],
+      "type": "document",
+      "description": "A 6-page 1972 Central Intelligence Bulletin containing a note on Nationalist China and other intelligence reporting.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp79t00975a022600090003-9",
+      "sourceNote": "CIA FOIA document page: CENTRAL INTELLIGENCE BULLETIN, publication date August 26, 1972.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp79t00975a022600090003-9",
+      "simulationAccess": "TOP SECRET",
+      "sourceClassification": "T",
+      "publicAttachment": "CIA-RDP79T00975A022600090003-9.pdf"
+    },
+    {
+      "id": "developments-indochina-1973-apr-10",
+      "title": "Developments in Indochina — 10 April 1973",
+      "topics": [
+        "indochina",
+        "vietnam",
+        "laos",
+        "cambodia",
+        "1973",
+        "ceasefire"
+      ],
+      "type": "document",
+      "description": "A 15-page 1973 intelligence summary on developments in Indochina, including Cambodia, Vietnam, and cease-fire implementation.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp85t00875r001100010034-8",
+      "sourceNote": "CIA FOIA document page: DEVELOPMENTS IN INDOCHINA, publication date April 10, 1973.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp85t00875r001100010034-8",
+      "simulationAccess": "TOP SECRET",
+      "sourceClassification": "T",
+      "publicAttachment": "CIA-RDP85T00875R001100010034-8.pdf"
+    },
+    {
+      "id": "presidents-daily-brief-1968-feb-16",
+      "title": "The President's Daily Brief — 16 February 1968",
+      "topics": [
+        "president",
+        "vietnam",
+        "soviet union",
+        "berlin",
+        "cold war",
+        "daily brief"
+      ],
+      "type": "document",
+      "description": "A 12-page 1968 President's Daily Brief containing reporting on South Vietnam and Soviet activity concerning Berlin.",
+      "source": "https://www.cia.gov/readingroom/document/0005974281",
+      "sourceNote": "CIA FOIA document page: THE PRESIDENT'S DAILY BRIEF 16 FEBRUARY 1968, publication date February 16, 1968.",
+      "directSource": "https://www.cia.gov/readingroom/document/0005974281",
+      "simulationAccess": "TOP SECRET",
+      "sourceClassification": "T",
+      "publicAttachment": "DOC_0005974281.pdf"
     }
   ],
   "schemaNote": "simulationAccess is a fictional CICAN gameplay gate. sourceClassification, when present, describes the historical classification marking reported by the public source. Neither field grants or represents real access."
