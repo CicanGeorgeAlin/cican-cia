@@ -1,5 +1,5 @@
 {
-  "version": "1.14",
+  "version": "1.15",
   "sourcePolicy": "public-declassified-only",
   "primarySource": "https://www.cia.gov/readingroom/",
   "records": [
@@ -1742,6 +1742,82 @@
       "simulationAccess": "SECRET",
       "sourceClassification": "Secret",
       "publicAttachment": "CIA-RDP85T00875R001100010065-4.pdf"
+    },
+    {
+      "id": "developments-indochina-1973-mar-27",
+      "title": "Developments in Indochina — 27 March 1973",
+      "topics": [
+        "indochina",
+        "vietnam",
+        "laos",
+        "cambodia",
+        "1973"
+      ],
+      "type": "document",
+      "description": "CIA public document reporting developments in Indochina on 27 March 1973.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp85t00875r001100010026-7",
+      "sourceNote": "CIA FOIA public document page; original classification marked Top Secret; 9 pages; publication date March 27, 1973.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp85t00875r001100010026-7",
+      "simulationAccess": "TOP SECRET",
+      "sourceClassification": "Top Secret",
+      "publicAttachment": "CIA-RDP85T00875R001100010026-7.pdf"
+    },
+    {
+      "id": "developments-indochina-1973-mar-30",
+      "title": "Developments in Indochina — 30 March 1973",
+      "topics": [
+        "indochina",
+        "vietnam",
+        "laos",
+        "cambodia",
+        "1973"
+      ],
+      "type": "document",
+      "description": "CIA public document reporting developments in Indochina on 30 March 1973.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp85t00875r001100010029-4",
+      "sourceNote": "CIA FOIA public document page; original classification marked Top Secret; 11 pages; publication date March 30, 1973.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp85t00875r001100010029-4",
+      "simulationAccess": "TOP SECRET",
+      "sourceClassification": "Top Secret",
+      "publicAttachment": "CIA-RDP85T00875R001100010029-4.pdf"
+    },
+    {
+      "id": "developments-indochina-1973-may-25",
+      "title": "Developments in Indochina — 25 May 1973",
+      "topics": [
+        "indochina",
+        "vietnam",
+        "laos",
+        "cambodia",
+        "1973"
+      ],
+      "type": "document",
+      "description": "CIA public document reporting developments in Indochina on 25 May 1973.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp85t00875r001100010047-4",
+      "sourceNote": "CIA FOIA public document page; original classification marked Secret; 11 pages; publication date May 25, 1973.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp85t00875r001100010047-4",
+      "simulationAccess": "SECRET",
+      "sourceClassification": "Secret",
+      "publicAttachment": "CIA-RDP85T00875R001100010047-4.pdf"
+    },
+    {
+      "id": "central-intelligence-bulletin-1967-apr-25",
+      "title": "Central Intelligence Bulletin — 25 April 1967",
+      "topics": [
+        "intelligence bulletin",
+        "cold war",
+        "vietnam",
+        "soviet union",
+        "china"
+      ],
+      "type": "document",
+      "description": "Publicly released Central Intelligence Bulletin issue dated 25 April 1967.",
+      "source": "https://www.cia.gov/readingroom/document/02026587",
+      "sourceNote": "CIA FOIA public document page; original classification marked Unclassified; 14 pages; publication date April 25, 1967.",
+      "directSource": "https://www.cia.gov/readingroom/document/02026587",
+      "simulationAccess": "CONFIDENTIAL",
+      "sourceClassification": "Unclassified",
+      "publicAttachment": "CENTRAL INTELLIGENCE BULL[15747529].pdf"
     }
   ],
   "schemaNote": "simulationAccess is a fictional CICAN gameplay gate. sourceClassification, when present, describes the historical classification marking reported by the public source. Neither field grants or represents real access."
