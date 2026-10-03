@@ -1,5 +1,5 @@
 {
-  "version": "1.9",
+  "version": "1.10",
   "sourcePolicy": "public-declassified-only",
   "primarySource": "https://www.cia.gov/readingroom/",
   "records": [
@@ -1382,6 +1382,63 @@
       "sourceNote": "Benjamin B. Fischer; complete public monograph is 41 pages.",
       "directSource": "https://www.cia.gov/resources/csi/books-monographs/a-cold-war-conundrum/",
       "simulationAccess": "SECRET"
+    },
+    {
+      "id": "preparations-spring-planting-rumania",
+      "title": "Preparations for Spring Planting in Rumania",
+      "topics": [
+        "romania",
+        "rumania",
+        "bucharest",
+        "agriculture",
+        "cold war"
+      ],
+      "type": "document",
+      "description": "A 1953 CREST report concerning agricultural preparations and reporting from Rumania.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA FOIA document page: PREPARATIONS FOR SPRING PLANTING IN RUMANIA.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp80-00809a000700110623-6",
+      "simulationAccess": "CONFIDENTIAL",
+      "sourceClassification": "C",
+      "publicAttachment": "CIA-RDP80-00809A000700110623-6.pdf"
+    },
+    {
+      "id": "situation-in-vietnam-1965",
+      "title": "The Situation in Vietnam — 8 September 1965",
+      "topics": [
+        "vietnam",
+        "military",
+        "cold war",
+        "analysis",
+        "southeast asia"
+      ],
+      "type": "document",
+      "description": "A 15-page 1965 CREST memorandum on the situation in Vietnam.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA FOIA document page: THE SITUATION IN VIETNAM.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp79t00472a002200010006-1",
+      "simulationAccess": "SECRET",
+      "sourceClassification": "T",
+      "publicAttachment": "CIA-RDP79T00472A002200010006-1.pdf"
+    },
+    {
+      "id": "situation-in-vietnam-1966",
+      "title": "The Situation in Vietnam — 22 June 1966",
+      "topics": [
+        "vietnam",
+        "military",
+        "cold war",
+        "analysis",
+        "southeast asia"
+      ],
+      "type": "document",
+      "description": "A 19-page 1966 CREST memorandum prepared for the National Security Council.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA FOIA document page: THE SITUATION IN VIETNAM.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp79t00826a000900250001-9",
+      "simulationAccess": "SECRET",
+      "sourceClassification": "T",
+      "publicAttachment": "CIA-RDP79T00826A000900250001-9.pdf"
     }
   ],
   "schemaNote": "simulationAccess is a fictional CICAN gameplay gate. sourceClassification, when present, describes the historical classification marking reported by the public source. Neither field grants or represents real access."
