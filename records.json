@@ -1,5 +1,5 @@
 {
-  "version": "1.10",
+  "version": "1.11",
   "sourcePolicy": "public-declassified-only",
   "primarySource": "https://www.cia.gov/readingroom/",
   "records": [
@@ -1439,6 +1439,82 @@
       "simulationAccess": "SECRET",
       "sourceClassification": "T",
       "publicAttachment": "CIA-RDP79T00826A000900250001-9.pdf"
+    },
+    {
+      "id": "vietnam-situation-1967-jan-9",
+      "title": "The Situation in Vietnam — 9 January 1967",
+      "topics": [
+        "vietnam",
+        "military",
+        "cold war",
+        "analysis",
+        "southeast asia"
+      ],
+      "type": "document",
+      "description": "A 8-page 1967 CREST memorandum from the Directorate of Intelligence on the situation in Vietnam.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA FOIA document page: THE SITUATION IN VIETNAM, publication date January 9, 1967.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp79t00826a001500010071-1",
+      "simulationAccess": "SECRET",
+      "sourceClassification": "T",
+      "publicAttachment": "CIA-RDP79T00826A001500010071-1.pdf"
+    },
+    {
+      "id": "vietnam-situation-1967-june-6",
+      "title": "The Situation in Vietnam — 6 June 1967",
+      "topics": [
+        "vietnam",
+        "military",
+        "cold war",
+        "analysis",
+        "southeast asia"
+      ],
+      "type": "document",
+      "description": "A 15-page 1967 CREST memorandum from the Directorate of Intelligence on the situation in Vietnam.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA FOIA document page: THE SITUATION IN VIETNAM, publication date June 6, 1967.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp79t00826a002100010004-8",
+      "simulationAccess": "SECRET",
+      "sourceClassification": "T",
+      "publicAttachment": "CIA-RDP79T00826A002100010004-8.pdf"
+    },
+    {
+      "id": "vietnam-south-1967-jan-2",
+      "title": "The Situation in South Vietnam — 2 January 1967",
+      "topics": [
+        "vietnam",
+        "military",
+        "cold war",
+        "analysis",
+        "southeast asia"
+      ],
+      "type": "document",
+      "description": "A 19-page 1967 intelligence report covering the situation in South Vietnam.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA FOIA document page: THE SITUATION IN SOUTH VIETNAM, publication date January 2, 1967.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp79t00826a001500010059-5",
+      "simulationAccess": "SECRET",
+      "sourceClassification": "S",
+      "publicAttachment": "CIA-RDP79T00826A001500010059-5.pdf"
+    },
+    {
+      "id": "north-vietnam-infiltration-1967",
+      "title": "Status of North Vietnam Infiltration into South Vietnam",
+      "topics": [
+        "vietnam",
+        "military",
+        "cold war",
+        "infiltration",
+        "analysis"
+      ],
+      "type": "document",
+      "description": "A 2-page 1967 CREST record concerning the status of North Vietnamese infiltration into South Vietnam.",
+      "source": "https://www.cia.gov/readingroom/",
+      "sourceNote": "CIA FOIA document page: STATUS OF NORTH VIETNAM INFILTRATION INTO SOUTH VIETNAM, publication date February 3, 1967.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp82m00097r000800160004-3",
+      "simulationAccess": "TOP SECRET",
+      "sourceClassification": "T",
+      "publicAttachment": "CIA-RDP82M00097R000800160004-3.pdf"
     }
   ],
   "schemaNote": "simulationAccess is a fictional CICAN gameplay gate. sourceClassification, when present, describes the historical classification marking reported by the public source. Neither field grants or represents real access."
