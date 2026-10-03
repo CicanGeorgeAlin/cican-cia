@@ -46,7 +46,7 @@ The project must never fabricate a CIA document, claim access to current classif
 - evidence.html — evidence dossier
 - legal.html — legal, independence, source and copyright policy
 - privacy.html — privacy and browser-storage notice
-- records.json — source-mapped public-record catalog
+- records.json — source-mapped public-record catalog (v1.9)\n\nThe catalog distinguishes CIA Reading Room indexes, public collections, and individual public document pages. Where the CIA source page explicitly lists a PDF attachment, CICAN records the verified public attachment filename as metadata; it does not invent or assume a direct PDF URL.
 
 ## Legal / independence baseline
 
