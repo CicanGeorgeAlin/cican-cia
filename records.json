@@ -1,5 +1,5 @@
 {
-  "version": "1.13",
+  "version": "1.14",
   "sourcePolicy": "public-declassified-only",
   "primarySource": "https://www.cia.gov/readingroom/",
   "records": [
@@ -1663,6 +1663,85 @@
       "simulationAccess": "TOP SECRET",
       "sourceClassification": "Top Secret",
       "publicAttachment": "CIA-RDP85T00875R001000090021-5.pdf"
+    },
+    {
+      "id": "developments-indochina-1973-feb-8",
+      "title": "Developments in Indochina — 8 February 1973",
+      "topics": [
+        "indochina",
+        "vietnam",
+        "laos",
+        "cambodia",
+        "1973",
+        "ceasefire"
+      ],
+      "type": "document",
+      "description": "CIA public document reporting developments in Indochina on 8 February 1973.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp85t00875r001000090026-0",
+      "sourceNote": "CIA FOIA public document page; original classification marked Top Secret; 17 pages; publication date February 8, 1973.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp85t00875r001000090026-0",
+      "simulationAccess": "TOP SECRET",
+      "sourceClassification": "Top Secret",
+      "publicAttachment": "CIA-RDP85T00875R001000090026-0.pdf"
+    },
+    {
+      "id": "developments-indochina-1973-feb-23",
+      "title": "Developments in Indochina — 23 February 1973",
+      "topics": [
+        "indochina",
+        "vietnam",
+        "laos",
+        "cambodia",
+        "1973",
+        "ceasefire"
+      ],
+      "type": "document",
+      "description": "CIA public document reporting developments in Indochina on 23 February 1973.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp85t00875r001000090038-7",
+      "sourceNote": "CIA FOIA public document page; original classification marked Top Secret; 15 pages; publication date February 23, 1973.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp85t00875r001000090038-7",
+      "simulationAccess": "TOP SECRET",
+      "sourceClassification": "Top Secret",
+      "publicAttachment": "CIA-RDP85T00875R001000090038-7.pdf"
+    },
+    {
+      "id": "developments-indochina-1973-mar-23",
+      "title": "Developments in Indochina — 23 March 1973",
+      "topics": [
+        "indochina",
+        "vietnam",
+        "laos",
+        "cambodia",
+        "1973",
+        "ceasefire"
+      ],
+      "type": "document",
+      "description": "CIA public document reporting developments in Indochina on 23 March 1973.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp85t00875r001100010023-0",
+      "sourceNote": "CIA FOIA public document page; original classification marked Top Secret; 13 pages; publication date March 23, 1973.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp85t00875r001100010023-0",
+      "simulationAccess": "TOP SECRET",
+      "sourceClassification": "Top Secret",
+      "publicAttachment": "CIA-RDP85T00875R001100010023-0.pdf"
+    },
+    {
+      "id": "developments-indochina-1973-aug-30",
+      "title": "Developments in Indochina — 30 August 1973",
+      "topics": [
+        "indochina",
+        "vietnam",
+        "laos",
+        "cambodia",
+        "1973"
+      ],
+      "type": "document",
+      "description": "CIA public document reporting developments in Indochina on 30 August 1973.",
+      "source": "https://www.cia.gov/readingroom/document/cia-rdp85t00875r001100010065-4",
+      "sourceNote": "CIA FOIA public document page; original classification marked Secret; 12 pages; publication date August 30, 1973.",
+      "directSource": "https://www.cia.gov/readingroom/document/cia-rdp85t00875r001100010065-4",
+      "simulationAccess": "SECRET",
+      "sourceClassification": "Secret",
+      "publicAttachment": "CIA-RDP85T00875R001100010065-4.pdf"
     }
   ],
   "schemaNote": "simulationAccess is a fictional CICAN gameplay gate. sourceClassification, when present, describes the historical classification marking reported by the public source. Neither field grants or represents real access."
